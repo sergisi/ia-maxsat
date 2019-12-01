@@ -107,7 +107,7 @@ class Graph(object):
         list(map(lambda x: formula.add_clause([nodes[x[0] - 1], nodes[x[1] - 1]],
             weight=wcnf.TOP_WEIGHT), self.edges))
         # formula.write_dimacs()  # Prints for debug.
-        opt, model = solver.solve(formula)
+        _, model = solver.solve(formula)
         # print("Opt: ", opt)
         # print("Model: ", model)
         return list(filter(lambda x: x > 0, model))
@@ -127,7 +127,7 @@ class Graph(object):
         list(map(lambda x: formula.add_clause([nodes[x[0] - 1], nodes[x[1] - 1]],
             weight=wcnf.TOP_WEIGHT), self.edges))
         # formula.write_dimacs()  # Prints for debug.
-        opt, model = solver.solve(formula)
+        _, model = solver.solve(formula)
         # print("Opt: ", opt)
         # print("Model: ", model)
         return list(filter(lambda x: x > 0, model))
@@ -148,7 +148,7 @@ class Graph(object):
         nodes = [formula.new_var() for _ in range(self.n_nodes)]
         # Creates soft calusules
         list(map(soft_clause, self.edges))
-        opt, model = solver.solve(formula)
+        _, model = solver.solve(formula)
         # print(formula)
         formula.write_dimacs()
         return list(filter(lambda x: x > 0, model))
@@ -170,8 +170,8 @@ def main(argv=None):
     min_vertex_cover = graph.min_vertex_cover(solver)
     print("MVC", " ".join(map(str, min_vertex_cover)))
 
-    # max_clique = graph.max_clique(solver)
-    # print("MCLIQUE", " ".join(map(str, max_clique)))
+    max_clique = graph.max_clique(solver)
+    print("MCLIQUE", " ".join(map(str, max_clique)))
 
     max_cut = graph.max_cut(solver)
     print("MCUT", " ".join(map(str, max_cut)))
