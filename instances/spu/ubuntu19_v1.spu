@@ -1,0 +1,3553 @@
+p spu 847
+n accountsservice
+n adduser
+n apparmor
+n apport
+n apport-symptoms
+n apt
+n apt-utils
+n at
+n base-files
+n base-passwd
+n bash
+n bash-completion
+n bc
+n bcache-tools
+n bind9-host
+n bolt
+n bsdmainutils
+n bsdutils
+n btrfs-progs
+n busybox-initramfs
+n busybox-static
+n byobu
+n bzip2
+n ca-certificates
+n cloud-guest-utils
+n cloud-init
+n cloud-initramfs-copymods
+n cloud-initramfs-dyn-netconf
+n command-not-found
+n console-setup
+n console-setup-linux
+n coreutils
+n cpio
+n cron
+n cryptsetup
+n cryptsetup-bin
+n curl
+n dash
+n dbus
+n dbus-user-session
+n dconf-service
+n debconf
+n debconf-i18n
+n debianutils
+n diffutils
+n dirmngr
+n distro-info-data
+n dmeventd
+n dmidecode
+n dmsetup
+n dnsutils
+n dosfstools
+n dpkg
+n e2fsprogs
+n eatmydata
+n ed
+n eject
+n ethtool
+n fdisk
+n file
+n finalrd
+n findutils
+n fonts-ubuntu-console
+n friendly-recovery
+n ftp
+n fuse
+n fwupd
+n gawk
+n gdisk
+n geoip-database
+n gettext-base
+n gir1.2-packagekitglib-1.0
+n git
+n git-man
+n glib-networking-common
+n glib-networking-services
+n gnupg
+n gnupg-l10n
+n gnupg-utils
+n gpg
+n gpg-agent
+n gpg-wks-client
+n gpg-wks-server
+n gpgconf
+n gpgsm
+n gpgv
+n grep
+n groff-base
+n gsettings-desktop-schemas
+n gzip
+n hdparm
+n hostname
+n htop
+n info
+n init
+n init-system-helpers
+n initramfs-tools
+n initramfs-tools-bin
+n initramfs-tools-core
+n install-info
+n iproute2
+n iptables
+n iputils-ping
+n iputils-tracepath
+n irqbalance
+n isc-dhcp-client
+n isc-dhcp-common
+n iso-codes
+n kbd
+n keyboard-configuration
+n klibc-utils
+n kmod
+n kpartx
+n krb5-locales
+n landscape-common
+n language-selector-common
+n less
+n libaudit-common
+n libc-bin
+n libcap2-bin
+n libdrm-common
+n liberror-perl
+n libglib2.0-bin
+n libglib2.0-data
+n libjson-glib-1.0-common
+n libldap-common
+n liblocale-gettext-perl
+n libmagic-mgc
+n libpam-modules-bin
+n libpam-runtime
+n libsemanage-common
+n libsgutils2-2
+n libsmbios-c2
+n libtext-charwidth-perl
+n libtext-iconv-perl
+n libtext-wrapi18n-perl
+n libx11-data
+n linux-base
+n locales
+n login
+n logrotate
+n lsb-base
+n lsb-release
+n lshw
+n lsof
+n ltrace
+n lvm2
+n man-db
+n manpages
+n mawk
+n mdadm
+n mime-support
+n mount
+n mtr-tiny
+n multipath-tools
+n nano
+n ncurses-base
+n ncurses-bin
+n netbase
+n netcat-openbsd
+n netplan.io
+n networkd-dispatcher
+n ntfs-3g
+n open-iscsi
+n open-vm-tools
+n openssh-client
+n openssl
+n overlayroot
+n packagekit
+n packagekit-tools
+n parted
+n passwd
+n pastebinit
+n patch
+n pciutils
+n perl
+n perl-base
+n pinentry-curses
+n plymouth
+n plymouth-theme-ubuntu-text
+n policykit-1
+n pollinate
+n popularity-contest
+n powermgmt-base
+n procps
+n psmisc
+n publicsuffix
+n python-apt-common
+n python3
+n python3-apport
+n python3-apt
+n python3-asn1crypto
+n python3-attr
+n python3-automat
+n python3-blinker
+n python3-certifi
+n python3-cffi-backend
+n python3-chardet
+n python3-click
+n python3-colorama
+n python3-commandnotfound
+n python3-configobj
+n python3-constantly
+n python3-cryptography
+n python3-dbus
+n python3-debconf
+n python3-debian
+n python3-distro
+n python3-distro-info
+n python3-distupgrade
+n python3-entrypoints
+n python3-gi
+n python3-httplib2
+n python3-hyperlink
+n python3-idna
+n python3-incremental
+n python3-jinja2
+n python3-json-pointer
+n python3-jsonpatch
+n python3-jsonschema
+n python3-jwt
+n python3-keyring
+n python3-launchpadlib
+n python3-lazr.restfulclient
+n python3-lazr.uri
+n python3-markupsafe
+n python3-minimal
+n python3-nacl
+n python3-netifaces
+n python3-oauthlib
+n python3-openssl
+n python3-pkg-resources
+n python3-problem-report
+n python3-pyasn1
+n python3-pyasn1-modules
+n python3-pymacaroons
+n python3-requests
+n python3-requests-unixsocket
+n python3-secretstorage
+n python3-serial
+n python3-service-identity
+n python3-simplejson
+n python3-six
+n python3-software-properties
+n python3-systemd
+n python3-twisted
+n python3-update-manager
+n python3-urllib3
+n python3-wadllib
+n python3-yaml
+n python3-zope.interface
+n python3.7
+n python3.7-minimal
+n readline-common
+n rsync
+n rsyslog
+n run-one
+n sbsigntool
+n screen
+n secureboot-db
+n sed
+n sensible-utils
+n sg3-utils
+n sg3-utils-udev
+n shared-mime-info
+n snapd
+n software-properties-common
+n sosreport
+n squashfs-tools
+n strace
+n sudo
+n systemd
+n systemd-sysv
+n sysvinit-utils
+n tar
+n tcpdump
+n telnet
+n thin-provisioning-tools
+n time
+n tmux
+n tzdata
+n ubuntu-advantage-tools
+n ubuntu-keyring
+n ubuntu-minimal
+n ubuntu-release-upgrader-core
+n ubuntu-server
+n ubuntu-standard
+n ucf
+n udev
+n ufw
+n unattended-upgrades
+n update-manager-core
+n update-notifier-common
+n usbutils
+n util-linux
+n uuid-runtime
+n vim
+n vim-common
+n vim-runtime
+n vim-tiny
+n wget
+n whiptail
+n xauth
+n xdg-user-dirs
+n xfsprogs
+n xkb-data
+n xxd
+n xz-utils
+n zerofree
+n libc6
+n libglib2.0-0
+n libaccountsservice0
+n libpolkit-gobject-1-0
+n debconf-2.0
+n gir1.2-glib-2.0
+n core-dump-handler
+n libseccomp2
+n libgnutls30
+n gpgv1
+n gpgv2
+n libgcc1
+n libapt-pkg5.0
+n libdb5.3
+n libapt-inst2.0
+n libselinux1
+n libpam0g
+n awk
+n libdebconfclient0
+n libtinfo5
+n libreadline7
+n libblkid1
+n libuuid1
+n libisc169
+n libbind9-160
+n liblwres160
+n libisccfg160
+n libdns1100
+n libudev1
+n libbsd0
+n libsystemd0
+n liblzo2-2
+n libzstd1
+n zlib1g
+n busybox
+n python3-newt
+n net-tools
+n libbz2-1.0
+n cloud-utils
+n ifupdown
+n console-setup-mini
+n libattr1
+n libacl1
+n mt-st
+n cryptsetup-luks
+n libpopt0
+n libcryptsetup12
+n libcurl4
+n libexpat1
+n libcap-ng0
+n libdbus-1-3
+n libapparmor1
+n libaudit1
+n libpam-systemd
+n libdconf1
+n dialog
+n cdebconf
+n debconf-utils
+n menu
+n libgpg-error0
+n libnpth0
+n libgcrypt20
+n libldap-2.4-2
+n libassuan0
+n libksba8
+n libdevmapper-event1.02.1
+n liblvm2cmd2.02
+n libdevmapper1.02.1
+n libirs160
+n libkrb5-3
+n host
+n liblzma5
+n libext2fs2
+n libcom-err2
+n libss2
+n libeatmydata1
+n libfdisk1
+n libmount1
+n libncursesw5
+n libsmartcols1
+n libmagic1
+n libfuse2
+n libgcab-1.0-0
+n libfwupd2
+n libappstream-glib8
+n libsqlite3-0
+n libgudev-1.0-0
+n libgusb2
+n libfwup1
+n libarchive13
+n libjson-glib-1.0-0
+n libsoup2.4-1
+n libelf1
+n libgpgme11
+n libefivar1
+n libsigsegv2
+n libgmp10
+n libmpfr6
+n libpackagekit-glib2-18
+n libcurl3-gnutls
+n libpcre3
+n libproxy1v5
+n pinentry
+n rgrep
+n dconf-gsettings-backend
+n gsettings-backend
+n linux-initramfs-tool
+n module-init-tools
+n libxtables12
+n libmnl0
+n libcap2
+n arpd
+n libnetfilter-conntrack3
+n libip6tc0
+n libnfnetlink0
+n libiptc0
+n libip4tc0
+n libnettle6
+n libidn11
+n libncurses5
+n libnuma1
+n libdns-export1100
+n libisc-export169
+n console-utilities
+n libklibc
+n libkmod2
+n python3-gdbm
+n libpam-modules
+n perlapi-5.26.0
+n libsmbios2
+n libsmbios2v5
+n backupninja
+n gnunet
+n amavisd-new
+n anacron
+n cron-daemon
+n libreadline5
+n liblvm2app2.2
+n man
+n librados2
+n libaio1
+n liburcu6
+n libjson-c3
+n libyaml-0-2
+n netplan
+n libxmlsec1
+n libxml2
+n libxmlsec1-openssl
+n libdumbnet1
+n libmspack0
+n libicu60
+n libssl1.1
+n libdrm2
+n libssl1.0.0
+n libgssapi-krb5-2
+n libedit2
+n libappstream4
+n libgstreamer1.0-0
+n libparted2
+n libsemanage1
+n libpci3
+n libjson-pp-perl
+n mono-gac
+n safe-rm
+n update-inetd
+n doc-base
+n libplymouth4
+n console-common
+n libpolkit-backend-1-0
+n libpolkit-agent-1-0
+n libprocps6
+n libffi6
+n command-not-found-data
+n python3-cffi-backend-api-max
+n python3-cffi-backend-api-min
+n libgirepository-1.0-1
+n python3-oauth
+n python3.6-minimal
+n libsodium23
+n python3-twisted-bin
+n libpython3.7-stdlib
+n binfmt-support
+n libfastjson4
+n libestr0
+n linux-kernel-log-daemon
+n system-log-daemon
+n libutempter0
+n snap
+n liblz4-1
+n libunwind8
+n sudo-ldap
+n libpcap0.8
+n libevent-2.1-6
+n nplan
+n btrfs-tools
+n acpid
+n libusb-1.0-0
+n libpython3.6
+n libgpm2
+n libpsl5
+n libidn2-0
+n libnewt0.52
+n libslang2
+n libxext6
+n libxmuu1
+n libx11-6
+n libxau6
+n lzma
+n e2fslibs
+n libp11-kit0
+n libhogweed4
+n libunistring2
+n libtasn1-6
+n gcc-8-base
+n libisccc160
+n libgeoip1
+n multiarch-support
+n cloud-image-utils
+n attr
+n acl
+n libpopt-dev
+n rpm
+n libargon2-0
+n libnghttp2-14
+n librtmp1
+n libcurl3
+n libdebian-installer4
+n libtextwrap1
+n libsasl2-2
+n libgssapi3-heimdal
+n ldap-utils
+n libk5crypto3
+n libkeyutils1
+n libkrb5support0
+n libgdk-pixbuf2.0-0
+n libstemmer0d
+n libefiboot1
+n glib-networking
+n libpcre3-dev
+n libgdbm5
+n libpam-mkhomedir
+n libpam-motd
+n libpam-umask
+n bsd-mailx
+n mailutils
+n mailx
+n libmicrohttpd12
+n libpq5
+n libogg0
+n libglpk40
+n libltdl7
+n libopus0
+n libmysqlclient20
+n libextractor3
+n libpulse0
+n libgnutls-dane0
+n libconvert-tnef-perl
+n libnet-libidn-perl
+n libberkeleydb-perl
+n libarchive-zip-perl
+n libdigest-md5-perl
+n libcompress-raw-zlib-perl
+n libio-stringy-perl
+n libmailtools-perl
+n libnet-server-perl
+n libmail-dkim-perl
+n libunix-syslog-perl
+n pax
+n libmime-tools-perl
+n libtime-hires-perl
+n libmime-base64-perl
+n libarchive-tar-perl
+n libconvert-uulib-perl
+n amavis
+n logcheck
+n libnspr4
+n libnss3
+n libibverbs1
+n plan
+n libxslt1.1
+n libsepol1
+n libpci2
+n mono-4.0-gac
+n libfile-copy-recursive-perl
+n libfile-temp-perl
+n libuuid-perl
+n libyaml-tiny-perl
+n libpng16-16
+n libmpdec2
+n libpython3.7-minimal
+n libpipeline1
+n libpython3.6-stdlib
+n libxcb1
+n qemu-utils
+n genisoimage
+n xfsdump
+n libc-dev
+n libc6-dev
+n librpmio8
+n debugedit
+n librpmsign8
+n librpm8
+n librpmbuild8
+n rpm-common
+n rpm2cpio
+n libsasl2-modules-db
+n libroken18-heimdal
+n libkrb5-26-heimdal
+n libasn1-8-heimdal
+n libhcrypto4-heimdal
+n libheimntlm0-heimdal
+n libcomerr2
+n ldap-client
+n openldap-utils
+n libgdk-pixbuf2.0-common
+n libjpeg8
+n libtiff5
+n libpcre32-3
+n libpcrecpp0v5
+n libpcre16-3
+n default-mta
+n mail-transport-agent
+n liblockfile1
+n libfribidi0
+n mailutils-common
+n libwrap0
+n guile-2.0-libs
+n libmailutils5
+n libcolamd2
+n libamd2
+n mysql-common
+n libswscale4
+n libsmf0
+n libgstreamer-plugins-base1.0-0
+n libavformat57
+n libexiv2-14
+n libavresample3
+n libvorbisfile3
+n libvorbis0a
+n libavutil55
+n libflac8
+n libmpeg2-4
+n libavcodec-extra57
+n libavcodec57
+n libgsf-1-114
+n libtidy5
+n libgif7
+n libasyncns0
+n libsndfile1
+n libunbound2
+n perlapi-5.26.1
+n libnet-smtp-ssl-perl
+n libtimedate-perl
+n libnet-perl
+n mailtools
+n libcgi-pm-perl
+n libio-socket-inet6-perl
+n libnet-cidr-perl
+n libio-socket-ssl-perl
+n libsocket6-perl
+n libnet-ssleay-perl
+n libio-multiplex-perl
+n libdigest-sha-perl
+n libnet-dns-perl
+n libcrypt-openssl-rsa-perl
+n libconvert-binhex-perl
+n mime-construct
+n logtail
+n lockfile-progs
+n libnl-route-3-200
+n libnl-3-200
+n libxt6
+n libxm4
+n libmono-corlib4.5-cil
+n libmono-security4.0-cil
+n libpython3.6-minimal
+n libxdmcp6
+n qemu-block-extra
+n mkisofs
+n linux-libc-dev
+n libc-dev-bin
+n liblua5.2-0
+n libdw1
+n libwind0-heimdal
+n libheimbase1-heimdal
+n libhx509-5-heimdal
+n libjpeg-turbo8
+n libjbig0
+n liblockfile-bin
+n libgc1c2
+n guile-2.0-slib
+n libpython2.7
+n libgsasl7
+n libkyotocabinet16v5
+n libsuitesparseconfig5
+n mysql-common-5.6
+n liborc-0.4-0
+n libgstreamer-plugins-bad1.0-0
+n libssh-gcrypt-4
+n libopenmpt0
+n libgme0
+n libbluray2
+n libchromaprint1
+n libvdpau1
+n libva2
+n libva-x11-2
+n libva-drm2
+n libcrystalhd3
+n libtheora0
+n libwebp6
+n libswresample2
+n libshine3
+n libsnappy1v5
+n libvo-amrwbenc0
+n libopencore-amrwb0
+n libx264-152
+n libtwolame0
+n libopencore-amrnb0
+n libvpx5
+n libx265-146
+n libwavpack1
+n librsvg2-2
+n libvorbisenc2
+n libzvbi0
+n libxvidcore4
+n libopenjp2-7
+n libmp3lame0
+n libcairo2
+n libspeex1
+n libwebpmux3
+n libgsm1
+n libgsf-1-common
+n libhtml-parser-perl
+n perl-openssl-abi-1.1
+n libdigest-hmac-perl
+n libnet-ip-perl
+n libcrypt-openssl-bignum-perl
+n libmime-types-perl
+n libproc-waitstat-perl
+n libice6
+n libsm6
+n x11-common
+n mono-runtime
+n libmono-system4.0-cil
+n librbd1
+n libiscsi7
+n linux-kernel-headers
+n libpython2.7-stdlib
+n libntlm0
+n libmpg123-0
+n libfontconfig1
+n libfreetype6
+n libxfixes3
+n libsoxr0
+n libcroco3
+n libpango-1.0-0
+n libpangocairo-1.0-0
+n libpangoft2-1.0-0
+n libzvbi-common
+n libpixman-1-0
+n libxrender1
+n libxcb-shm0
+n libxcb-render0
+n asterisk
+n liburi-perl
+n libhtml-tagset-perl
+n libipc-signal-perl
+n mono-runtime-sgen
+n libmono-system-xml4.0-cil
+n libmono-system-configuration4.0-cil
+n libpython2.7-minimal
+n fontconfig-config
+n libgomp1
+n libthai0
+n fontconfig
+n libharfbuzz0b
+n asterisk-core-sounds-en
+n asterisk-modules
+n libjansson4
+n asterisk-config
+n liburiparser1
+n mono-runtime-common
+n libmono-system-security4.0-cil
+n fonts-dejavu-core
+n fonts-liberation
+n ttf-bitstream-vera
+n libthai-data
+n libdatrie1
+n libgraphite2-3
+n asterisk-core-sounds-en-g722
+n asterisk-core-sounds-en-gsm
+n asterisk-core-sounds-en-wav
+n libsrtp2-1
+n libpjsip2
+n libsqlite0
+n libpjsip-simple2
+n libasound2
+n libpjmedia2
+n libradcli4
+n libportaudio2
+n libiksemel3
+n libodbc1
+n libpjlib-util2
+n libpjsip-ua2
+n libpjnath2
+n libical3
+n libsybdb5
+n libpj2
+n libresample1
+n libjack-0.125
+n libjack-jackd2-0
+n libspeexdsp1
+n libgmime-3.0-0
+n libneon27-gnutls
+n libspandsp2
+n liblua5.1-0
+n binutils
+n libasound2-data
+n freetds-common
+n libsamplerate0
+n libjack-0.116
+n libjack0
+n jackd2
+n binutils-common
+n binutils-x86-64-linux-gnu
+n libbinutils
+n binutils-multiarch
+n binutils-mingw-w64-x86-64
+n binutils-mingw-w64-i686
+n jackd1
+n python-dbus
+n jackd
+n jack-daemon
+n libzita-alsa-pcmi0
+n libzita-resampler1
+n python
+n python-minimal
+n python2.7-minimal
+d accountsservice libc6
+d accountsservice libglib2.0-0
+d accountsservice libaccountsservice0
+d accountsservice libpolkit-gobject-1-0
+d accountsservice dbus
+d adduser passwd
+d adduser debconf debconf-2.0
+d apparmor debconf debconf-2.0
+d apparmor libc6
+d apparmor lsb-base
+d apparmor debconf
+d apport python3-apport
+d apport lsb-base
+d apport python3
+d apport python3-gi
+d apport gir1.2-glib-2.0
+d apt libseccomp2
+d apt libc6
+d apt ubuntu-keyring
+d apt libgnutls30
+d apt gpgv gpgv1 gpgv2
+d apt libgcc1
+d apt adduser
+d apt libapt-pkg5.0
+d apt-utils libdb5.3
+d apt-utils libc6
+d apt-utils libgcc1
+d apt-utils libapt-inst2.0
+d apt-utils apt
+d apt-utils libapt-pkg5.0
+d at libc6
+d at libselinux1
+d at libpam-runtime
+d at lsb-base
+d at libpam0g
+d base-files awk
+d base-passwd libdebconfclient0
+d base-passwd libc6
+d bash libtinfo5
+d bash libc6
+d bc libreadline7
+d bc libc6
+d bcache-tools libblkid1
+d bcache-tools libuuid1
+d bcache-tools libc6
+d bind9-host libisc169
+d bind9-host libbind9-160
+d bind9-host libc6
+d bind9-host liblwres160
+d bind9-host libisccfg160
+d bind9-host libdns1100
+d bolt libpolkit-gobject-1-0
+d bolt libglib2.0-0
+d bolt libudev1
+d bolt libc6
+d bsdmainutils libc6
+d bsdmainutils libtinfo5
+d bsdmainutils debianutils
+d bsdmainutils libbsd0
+d bsdmainutils bsdutils
+d bsdutils libsystemd0
+d bsdutils libc6
+d btrfs-progs liblzo2-2
+d btrfs-progs libc6
+d btrfs-progs libuuid1
+d btrfs-progs libzstd1
+d btrfs-progs libblkid1
+d btrfs-progs zlib1g
+d busybox-initramfs libc6
+d byobu debconf debconf-2.0
+d byobu gawk
+d byobu tmux
+d byobu gettext-base
+d byobu python3
+d byobu python3-newt
+d byobu net-tools
+d bzip2 libbz2-1.0
+d bzip2 libc6
+d ca-certificates debconf debconf-2.0
+d ca-certificates openssl
+d cloud-guest-utils util-linux
+d cloud-guest-utils e2fsprogs
+d cloud-init debconf debconf-2.0
+d cloud-init cloud-guest-utils cloud-utils
+d cloud-init python3-configobj
+d cloud-init python3-jsonpatch
+d cloud-init procps
+d cloud-init ifupdown netplan.io
+d cloud-init python3-requests
+d cloud-init python3
+d cloud-init isc-dhcp-client
+d cloud-init iproute2
+d cloud-init python3-serial
+d cloud-init python3-oauthlib
+d cloud-init python3-jsonschema
+d cloud-init python3-six
+d cloud-init python3-yaml
+d cloud-init python3-jinja2
+d cloud-initramfs-copymods initramfs-tools
+d cloud-initramfs-dyn-netconf initramfs-tools
+d command-not-found python3-commandnotfound
+d console-setup debconf
+d console-setup-linux kbd
+d console-setup-linux keyboard-configuration
+d console-setup-linux init-system-helpers
+d coreutils libattr1
+d coreutils libacl1
+d coreutils libselinux1
+d coreutils libc6
+d cpio libc6
+d cron dpkg
+d cryptsetup libc6
+d cryptsetup cryptsetup-bin
+d cryptsetup dmsetup
+d cryptsetup debconf debconf-2.0
+d cryptsetup-bin libpopt0
+d cryptsetup-bin libcryptsetup12
+d cryptsetup-bin libuuid1
+d cryptsetup-bin libc6
+d curl zlib1g
+d curl libcurl4
+d curl libc6
+d dash libc6
+d dbus libsystemd0
+d dbus libexpat1
+d dbus libc6
+d dbus libcap-ng0
+d dbus libselinux1
+d dbus libdbus-1-3
+d dbus lsb-base
+d dbus libapparmor1
+d dbus libaudit1
+d dbus adduser
+d dbus-user-session systemd
+d dbus-user-session dbus
+d dbus-user-session libpam-systemd
+d dconf-service libglib2.0-0
+d dconf-service libdconf1
+d dconf-service libc6
+d debconf perl-base
+d debconf-i18n libtext-iconv-perl
+d debconf-i18n libtext-wrapi18n-perl
+d debconf-i18n liblocale-gettext-perl
+d debconf-i18n libtext-charwidth-perl
+d debconf-i18n debconf
+d debianutils libc6
+d diffutils libc6
+d dirmngr libgpg-error0
+d dirmngr libc6
+d dirmngr libnpth0
+d dirmngr libgcrypt20
+d dirmngr libgnutls30
+d dirmngr libldap-2.4-2
+d dirmngr libassuan0
+d dirmngr libksba8
+d dirmngr lsb-base
+d dirmngr adduser
+d dirmngr gpgconf
+d dmeventd libdevmapper-event1.02.1
+d dmeventd liblvm2cmd2.02
+d dmeventd libdevmapper1.02.1
+d dmeventd libc6
+d dmidecode libc6
+d dmsetup libdevmapper1.02.1
+d dmsetup libc6
+d dnsutils libisc169
+d dnsutils libbind9-160
+d dnsutils libc6
+d dnsutils liblwres160
+d dnsutils libirs160
+d dnsutils libisccfg160
+d dnsutils libkrb5-3
+d dnsutils bind9-host host
+d dnsutils libdns1100
+d dosfstools libudev1
+d dosfstools libc6
+d dpkg zlib1g
+d dpkg libc6
+d dpkg libbz2-1.0
+d dpkg libselinux1
+d dpkg libzstd1
+d dpkg liblzma5
+d e2fsprogs libext2fs2
+d e2fsprogs libc6
+d e2fsprogs libuuid1
+d e2fsprogs libcom-err2
+d e2fsprogs libss2
+d e2fsprogs libblkid1
+d eatmydata libeatmydata1
+d ed libc6
+d eject libdevmapper1.02.1
+d eject libc6
+d ethtool libc6
+d fdisk libfdisk1
+d fdisk libmount1
+d fdisk libncursesw5
+d fdisk libc6
+d fdisk libtinfo5
+d fdisk libsmartcols1
+d file libmagic1
+d file libc6
+d finalrd initramfs-tools-core
+d findutils libselinux1
+d findutils libc6
+d friendly-recovery systemd-sysv
+d friendly-recovery whiptail
+d ftp libreadline7
+d ftp netbase
+d ftp libc6
+d fuse libc6
+d fuse libfuse2
+d fuse adduser
+d fuse mount
+d fuse sed
+d fwupd libgcab-1.0-0
+d fwupd libfwupd2
+d fwupd libappstream-glib8
+d fwupd libsqlite3-0
+d fwupd libc6
+d fwupd libglib2.0-0
+d fwupd libgnutls30
+d fwupd libgudev-1.0-0
+d fwupd libsmbios-c2
+d fwupd libuuid1
+d fwupd libgusb2
+d fwupd libpolkit-gobject-1-0
+d fwupd libfwup1
+d fwupd libarchive13
+d fwupd libjson-glib-1.0-0
+d fwupd libsoup2.4-1
+d fwupd libgpg-error0
+d fwupd libelf1
+d fwupd libgpgme11
+d fwupd libefivar1
+d gawk libsigsegv2
+d gawk libgmp10
+d gawk libc6
+d gawk libreadline7
+d gawk libmpfr6
+d gdisk libc6
+d gdisk libncursesw5
+d gdisk libtinfo5
+d gdisk libuuid1
+d gdisk libgcc1
+d gdisk libpopt0
+d gettext-base libc6
+d gir1.2-packagekitglib-1.0 libpackagekit-glib2-18
+d gir1.2-packagekitglib-1.0 gir1.2-glib-2.0
+d git perl
+d git libexpat1
+d git liberror-perl
+d git libc6
+d git git-man
+d git libcurl3-gnutls
+d git libpcre3
+d git zlib1g
+d glib-networking-services glib-networking-common
+d glib-networking-services libglib2.0-0
+d glib-networking-services libproxy1v5
+d glib-networking-services libc6
+d gnupg gpg
+d gnupg gpg-agent
+d gnupg gnupg-utils
+d gnupg gpgv
+d gnupg dirmngr
+d gnupg gpgsm
+d gnupg gpg-wks-client
+d gnupg gpg-wks-server
+d gnupg gnupg-l10n
+d gnupg-utils libc6
+d gnupg-utils libbz2-1.0
+d gnupg-utils libgcrypt20
+d gnupg-utils libassuan0
+d gnupg-utils libksba8
+d gnupg-utils libgpg-error0
+d gnupg-utils zlib1g
+d gpg libsqlite3-0
+d gpg libc6
+d gpg libbz2-1.0
+d gpg libgcrypt20
+d gpg libassuan0
+d gpg libreadline7
+d gpg libgpg-error0
+d gpg zlib1g
+d gpg gpgconf
+d gpg-agent libc6
+d gpg-agent libnpth0
+d gpg-agent libgcrypt20
+d gpg-agent pinentry pinentry-curses
+d gpg-agent libassuan0
+d gpg-agent libgpg-error0
+d gpg-agent gpgconf
+d gpg-wks-client gpg
+d gpg-wks-client gpg-agent
+d gpg-wks-client libc6
+d gpg-wks-client libgcrypt20
+d gpg-wks-client dirmngr
+d gpg-wks-client libassuan0
+d gpg-wks-client libgpg-error0
+d gpg-wks-server gpg
+d gpg-wks-server gpg-agent
+d gpg-wks-server libc6
+d gpg-wks-server libgcrypt20
+d gpg-wks-server libgpg-error0
+d gpgconf libc6
+d gpgconf libgcrypt20
+d gpgconf libassuan0
+d gpgconf libreadline7
+d gpgconf libgpg-error0
+d gpgsm libc6
+d gpgsm libgcrypt20
+d gpgsm libassuan0
+d gpgsm libksba8
+d gpgsm libreadline7
+d gpgsm libgpg-error0
+d gpgsm gpgconf
+d gpgv libc6
+d gpgv libbz2-1.0
+d gpgv libgcrypt20
+d gpgv libgpg-error0
+d gpgv zlib1g
+d grep libpcre3
+d grep libc6
+d groff-base libgcc1
+d groff-base libc6
+d gsettings-desktop-schemas dconf-gsettings-backend gsettings-backend
+d gzip libc6
+d hdparm lsb-base
+d hdparm libc6
+d hostname libc6
+d htop libncursesw5
+d htop libtinfo5
+d htop libc6
+d info libtinfo5
+d info install-info
+d info libc6
+d init systemd-sysv
+d init-system-helpers perl-base
+d initramfs-tools initramfs-tools-core
+d initramfs-tools linux-base
+d initramfs-tools-bin libudev1
+d initramfs-tools-bin libc6
+d initramfs-tools-core udev
+d initramfs-tools-core klibc-utils
+d initramfs-tools-core kmod module-init-tools
+d initramfs-tools-core busybox-initramfs
+d initramfs-tools-core cpio
+d initramfs-tools-core initramfs-tools-bin
+d initramfs-tools-core coreutils
+d install-info dpkg
+d iproute2 debconf debconf-2.0
+d iproute2 libdb5.3
+d iproute2 libc6
+d iproute2 libxtables12
+d iproute2 libselinux1
+d iproute2 libmnl0
+d iproute2 libcap2-bin
+d iproute2 libelf1
+d iproute2 libcap2
+d iptables libnetfilter-conntrack3
+d iptables libc6
+d iptables libxtables12
+d iptables libip6tc0
+d iptables libnfnetlink0
+d iptables libiptc0
+d iptables libip4tc0
+d iputils-ping libcap2
+d iputils-ping libnettle6
+d iputils-ping libidn11
+d iputils-ping libc6
+d iputils-tracepath libcap2
+d iputils-tracepath libidn11
+d iputils-tracepath libc6
+d irqbalance libsystemd0
+d irqbalance debconf debconf-2.0
+d irqbalance libc6
+d irqbalance libtinfo5
+d irqbalance libncurses5
+d irqbalance libcap-ng0
+d irqbalance libglib2.0-0
+d irqbalance libnuma1
+d irqbalance lsb-base
+d isc-dhcp-client libc6
+d isc-dhcp-client debianutils
+d isc-dhcp-client libdns-export1100
+d isc-dhcp-client libisc-export169
+d isc-dhcp-client iproute2
+d isc-dhcp-common debianutils
+d kbd console-setup console-setup-mini
+d kbd libc6
+d keyboard-configuration debconf
+d klibc-utils libklibc
+d kmod lsb-base
+d kmod libkmod2
+d kmod libc6
+d kpartx udev
+d kpartx libdevmapper1.02.1
+d kpartx dmsetup
+d kpartx libc6
+d landscape-common debconf debconf-2.0
+d landscape-common ca-certificates
+d landscape-common lsb-release
+d landscape-common lshw
+d landscape-common python3-apt
+d landscape-common python3-gdbm
+d landscape-common lsb-base
+d landscape-common bc
+d landscape-common python3-twisted
+d landscape-common python3-configobj
+d landscape-common libpam-modules
+d landscape-common adduser
+d language-selector-common dpkg
+d less libtinfo5
+d less debianutils
+d less libc6
+d libc-bin libc6
+d libcap2-bin libcap2
+d libcap2-bin libc6
+d liberror-perl perl
+d libglib2.0-bin libglib2.0-data
+d libglib2.0-bin libglib2.0-0
+d libglib2.0-bin libelf1
+d libglib2.0-bin libc6
+d liblocale-gettext-perl perl-base
+d liblocale-gettext-perl perlapi-5.26.0
+d libpam-modules-bin libpam0g
+d libpam-modules-bin libaudit1
+d libpam-modules-bin libselinux1
+d libpam-modules-bin libc6
+d libpam-runtime libpam-modules
+d libpam-runtime debconf debconf-2.0
+d libpam-runtime cdebconf debconf
+d libsgutils2-2 libc6
+d libsmbios-c2 libc6
+d libtext-charwidth-perl perl-base
+d libtext-charwidth-perl perlapi-5.26.0
+d libtext-charwidth-perl libc6
+d libtext-iconv-perl perl-base
+d libtext-iconv-perl perlapi-5.26.0
+d libtext-iconv-perl libc6
+d libtext-wrapi18n-perl libtext-charwidth-perl
+d linux-base debconf debconf-2.0
+d locales libc-bin
+d locales debconf debconf-2.0
+d login libc6
+d login libpam0g
+d login libpam-runtime
+d login libpam-modules
+d login libaudit1
+d logrotate base-passwd
+d logrotate libc6
+d logrotate libacl1
+d logrotate libselinux1
+d logrotate libpopt0
+d logrotate anacron cron cron-daemon
+d lsb-release distro-info-data
+d lshw libgcc1
+d lshw libc6
+d lsof libselinux1
+d lsof libc6
+d ltrace libelf1
+d ltrace libselinux1
+d ltrace libc6
+d lvm2 libsystemd0
+d lvm2 libdevmapper-event1.02.1
+d lvm2 libc6
+d lvm2 lsb-base
+d lvm2 libreadline5
+d lvm2 libdevmapper1.02.1
+d lvm2 liblvm2app2.2
+d lvm2 dmsetup
+d lvm2 libblkid1
+d lvm2 dmeventd
+d lvm2 libudev1
+d man-db dpkg
+d mawk libc6
+d mdadm udev
+d mdadm debconf debconf-2.0
+d mdadm libc6
+d mdadm lsb-base
+d mdadm debconf
+d mount libblkid1
+d mount libmount1
+d mount libsmartcols1
+d mount libc6
+d mtr-tiny libtinfo5
+d mtr-tiny libncurses5
+d mtr-tiny libc6
+d multipath-tools sg3-utils-udev
+d multipath-tools libsystemd0
+d multipath-tools udev
+d multipath-tools libc6
+d multipath-tools librados2
+d multipath-tools kpartx
+d multipath-tools lsb-base
+d multipath-tools libaio1
+d multipath-tools libreadline7
+d multipath-tools libdevmapper1.02.1
+d multipath-tools liburcu6
+d multipath-tools libjson-c3
+d multipath-tools libudev1
+d nano libncursesw5
+d nano libtinfo5
+d nano libc6
+d ncurses-bin libtinfo5
+d ncurses-bin libc6
+d netcat-openbsd libbsd0
+d netcat-openbsd libc6
+d netplan.io libsystemd0
+d netplan.io libc6
+d netplan.io libglib2.0-0
+d netplan.io libuuid1
+d netplan.io libyaml-0-2
+d netplan.io systemd
+d netplan.io python3-netifaces
+d netplan.io python3
+d netplan.io iproute2
+d netplan.io python3-yaml
+d networkd-dispatcher python3-gi
+d networkd-dispatcher python3-dbus
+d networkd-dispatcher gir1.2-glib-2.0
+d ntfs-3g fuse
+d open-iscsi debconf debconf-2.0
+d open-vm-tools libxmlsec1
+d open-vm-tools libc6
+d open-vm-tools libxml2
+d open-vm-tools libglib2.0-0
+d open-vm-tools libgcc1
+d open-vm-tools libxmlsec1-openssl
+d open-vm-tools libdumbnet1
+d open-vm-tools libfuse2
+d open-vm-tools pciutils
+d open-vm-tools libmspack0
+d open-vm-tools iproute2
+d open-vm-tools libicu60
+d open-vm-tools libssl1.1
+d open-vm-tools libdrm2
+d open-vm-tools libudev1
+d openssh-client libssl1.0.0
+d openssh-client libc6
+d openssh-client libgssapi-krb5-2
+d openssh-client libselinux1
+d openssh-client libbsd0
+d openssh-client passwd
+d openssh-client libedit2
+d openssh-client dpkg
+d openssh-client adduser
+d openssh-client zlib1g
+d openssl libssl1.1
+d openssl libc6
+d overlayroot cryptsetup
+d overlayroot cryptsetup-bin
+d overlayroot initramfs-tools
+d packagekit libappstream4
+d packagekit libsystemd0
+d packagekit policykit-1
+d packagekit libsqlite3-0
+d packagekit libc6
+d packagekit libglib2.0-0
+d packagekit libpackagekit-glib2-18
+d packagekit libgcc1
+d packagekit libapt-pkg5.0
+d packagekit libgstreamer1.0-0
+d packagekit libapt-inst2.0
+d packagekit libpolkit-gobject-1-0
+d packagekit libglib2.0-bin
+d packagekit-tools packagekit
+d packagekit-tools libglib2.0-0
+d packagekit-tools libpackagekit-glib2-18
+d packagekit-tools libc6
+d parted libtinfo5
+d parted libreadline7
+d parted libparted2
+d parted libc6
+d passwd libsemanage1
+d passwd libc6
+d passwd libselinux1
+d passwd libpam0g
+d passwd libpam-modules
+d passwd libaudit1
+d pastebinit python3
+d patch libc6
+d pciutils libpci3
+d pciutils libkmod2
+d pciutils libc6
+d perl dpkg
+d perl-base dpkg
+d perl-base libc6
+d pinentry-curses libc6
+d pinentry-curses libncursesw5
+d pinentry-curses libtinfo5
+d pinentry-curses libassuan0
+d pinentry-curses libgpg-error0
+d plymouth udev
+d plymouth libc6
+d plymouth systemd
+d plymouth lsb-base
+d plymouth libplymouth4
+d plymouth init-system-helpers
+d plymouth libdrm2
+d plymouth-theme-ubuntu-text libplymouth4
+d plymouth-theme-ubuntu-text lsb-release
+d plymouth-theme-ubuntu-text plymouth
+d plymouth-theme-ubuntu-text libc6
+d policykit-1 libpam-systemd
+d policykit-1 libc6
+d policykit-1 libglib2.0-0
+d policykit-1 libpolkit-backend-1-0
+d policykit-1 libpolkit-gobject-1-0
+d policykit-1 dbus
+d policykit-1 libpam0g
+d policykit-1 libpolkit-agent-1-0
+d pollinate adduser
+d pollinate vim-common xxd
+d pollinate curl
+d popularity-contest cdebconf debconf
+d procps libc6
+d procps libncursesw5
+d procps libncurses5
+d procps libtinfo5
+d procps libprocps6
+d procps lsb-base
+d procps init-system-helpers
+d psmisc libtinfo5
+d psmisc libselinux1
+d psmisc libc6
+d python3 python3-minimal
+d python3-apport lsb-release
+d python3-apport python3-httplib2
+d python3-apport python3-apt
+d python3-apport python3-problem-report
+d python3-apport python3-requests-unixsocket
+d python3-apt libc6
+d python3-apt libgcc1
+d python3-apt libapt-inst2.0
+d python3-apt python3
+d python3-apt python-apt-common
+d python3-apt libapt-pkg5.0
+d python3-automat python3-six
+d python3-automat python3-attr
+d python3-certifi ca-certificates
+d python3-cffi-backend libffi6
+d python3-cffi-backend python3
+d python3-cffi-backend libc6
+d python3-chardet python3-pkg-resources
+d python3-click python3-colorama
+d python3-commandnotfound command-not-found-data
+d python3-commandnotfound lsb-release
+d python3-commandnotfound python3-apt
+d python3-commandnotfound python3-gdbm
+d python3-configobj python3-six
+d python3-cryptography python3-cffi-backend-api-max
+d python3-cryptography libc6
+d python3-cryptography libssl1.1
+d python3-cryptography python3-cffi-backend-api-min
+d python3-cryptography python3-idna
+d python3-cryptography python3
+d python3-cryptography python3-six
+d python3-cryptography python3-asn1crypto
+d python3-dbus libc6
+d python3-dbus libglib2.0-0
+d python3-dbus libdbus-1-3
+d python3-dbus python3
+d python3-debconf debconf
+d python3-debian python3-chardet
+d python3-debian python3-six
+d python3-distro lsb-release
+d python3-distro-info distro-info-data
+d python3-distupgrade gpgv
+d python3-distupgrade lsb-release
+d python3-distupgrade python3-update-manager
+d python3-distupgrade python3-distro-info
+d python3-distupgrade python3-apt
+d python3-distupgrade sensible-utils
+d python3-gi libc6
+d python3-gi libffi6
+d python3-gi libglib2.0-0
+d python3-gi libgirepository-1.0-1
+d python3-gi python3
+d python3-gi gir1.2-glib-2.0
+d python3-httplib2 ca-certificates
+d python3-jinja2 python3-markupsafe
+d python3-jsonpatch python3-json-pointer
+d python3-jsonschema python3-pkg-resources
+d python3-jsonschema python3
+d python3-keyring python3-secretstorage
+d python3-keyring python3-dbus
+d python3-launchpadlib python3-keyring
+d python3-launchpadlib python3-lazr.restfulclient
+d python3-launchpadlib python3-httplib2
+d python3-launchpadlib python3-wadllib
+d python3-launchpadlib python3-lazr.uri
+d python3-launchpadlib python3-simplejson
+d python3-lazr.restfulclient python3-httplib2
+d python3-lazr.restfulclient python3-pkg-resources
+d python3-lazr.restfulclient python3-wadllib
+d python3-lazr.restfulclient python3-lazr.uri
+d python3-lazr.restfulclient python3-zope.interface
+d python3-lazr.restfulclient python3-oauth
+d python3-lazr.restfulclient python3-simplejson
+d python3-lazr.uri python3-pkg-resources
+d python3-markupsafe python3
+d python3-markupsafe libc6
+d python3-minimal python3.6-minimal
+d python3-nacl python3-cffi-backend-api-max
+d python3-nacl libc6
+d python3-nacl libsodium23
+d python3-nacl python3-cffi-backend-api-min
+d python3-nacl python3
+d python3-nacl python3-six
+d python3-netifaces python3
+d python3-netifaces libc6
+d python3-oauthlib python3-blinker
+d python3-oauthlib python3-cryptography
+d python3-oauthlib python3-jwt
+d python3-openssl python3-cryptography
+d python3-openssl python3-six
+d python3-pyasn1-modules python3-pyasn1
+d python3-pymacaroons python3-nacl
+d python3-pymacaroons python3-six
+d python3-requests ca-certificates
+d python3-requests python3-idna
+d python3-requests python3-urllib3
+d python3-requests python3-certifi
+d python3-requests python3-chardet
+d python3-requests-unixsocket python3-urllib3
+d python3-requests-unixsocket python3-requests
+d python3-secretstorage dbus
+d python3-secretstorage python3-cryptography
+d python3-secretstorage python3-dbus
+d python3-service-identity python3-pyasn1
+d python3-service-identity python3-openssl
+d python3-service-identity python3-attr
+d python3-service-identity python3-pyasn1-modules
+d python3-simplejson python3
+d python3-simplejson libc6
+d python3-software-properties gpg
+d python3-software-properties lsb-release
+d python3-software-properties iso-codes
+d python3-software-properties python3-apt
+d python3-software-properties python3
+d python3-software-properties python3-gi
+d python3-systemd libsystemd0
+d python3-systemd python3
+d python3-systemd libc6
+d python3-twisted python3-openssl
+d python3-twisted python3-service-identity
+d python3-twisted python3-constantly
+d python3-twisted python3-twisted-bin
+d python3-twisted python3-hyperlink
+d python3-twisted python3-incremental
+d python3-twisted python3-automat
+d python3-twisted python3-zope.interface
+d python3-update-manager python3-apt
+d python3-update-manager lsb-release
+d python3-update-manager python3-distupgrade
+d python3-urllib3 python3-six
+d python3-wadllib python3-pkg-resources
+d python3-wadllib python3-lazr.uri
+d python3-yaml python3
+d python3-yaml libyaml-0-2
+d python3-yaml libc6
+d python3-zope.interface python3-pkg-resources
+d python3-zope.interface python3
+d python3-zope.interface libc6
+d python3.7 mime-support
+d python3.7 python3.7-minimal
+d python3.7 libpython3.7-stdlib
+d python3.7-minimal libc6
+d readline-common dpkg install-info
+d rsync libc6
+d rsync libacl1
+d rsync lsb-base
+d rsync libattr1
+d rsync libpopt0
+d rsync init-system-helpers
+d rsync base-files
+d rsyslog libfastjson4
+d rsyslog libsystemd0
+d rsyslog adduser
+d rsyslog libc6
+d rsyslog libestr0
+d rsyslog libuuid1
+d rsyslog lsb-base
+d rsyslog init-system-helpers
+d rsyslog zlib1g
+d rsyslog ucf
+d run-one procps
+d sbsigntool libssl1.1
+d sbsigntool libuuid1
+d sbsigntool libc6
+d screen libtinfo5
+d screen libpam0g
+d screen libutempter0
+d screen libc6
+d secureboot-db sbsigntool
+d sed libselinux1
+d sed libc6
+d sg3-utils libsgutils2-2
+d sg3-utils libc6
+d sg3-utils-udev sg3-utils
+d sg3-utils-udev initramfs-tools
+d shared-mime-info libxml2
+d shared-mime-info libglib2.0-0
+d shared-mime-info libc6
+d snapd udev
+d snapd ca-certificates
+d snapd zlib1g
+d snapd libc6
+d snapd squashfs-tools
+d snapd systemd
+d snapd libfuse2
+d snapd apparmor
+d snapd openssh-client
+d snapd adduser
+d snapd liblzma5
+d snapd libudev1
+d software-properties-common ca-certificates
+d software-properties-common python3-dbus
+d software-properties-common python3-software-properties
+d software-properties-common python3
+d software-properties-common python3-gi
+d software-properties-common python-apt-common
+d software-properties-common gir1.2-glib-2.0
+d sosreport python3-six
+d squashfs-tools liblzo2-2
+d squashfs-tools liblz4-1
+d squashfs-tools libc6
+d squashfs-tools liblzma5
+d squashfs-tools zlib1g
+d strace libunwind8
+d strace libc6
+d sudo libc6
+d sudo libselinux1
+d sudo libpam0g
+d sudo lsb-base
+d sudo libpam-modules
+d sudo libaudit1
+d systemd libseccomp2
+d systemd libcryptsetup12
+d systemd libc6
+d systemd liblz4-1
+d systemd libgcrypt20
+d systemd libacl1
+d systemd libselinux1
+d systemd libidn11
+d systemd libblkid1
+d systemd libip4tc0
+d systemd liblzma5
+d systemd libcap2
+d systemd-sysv systemd
+d sysvinit-utils init-system-helpers
+d sysvinit-utils util-linux
+d sysvinit-utils libc6
+d tar libacl1
+d tar libselinux1
+d tar libc6
+d tcpdump libssl1.1
+d tcpdump libpcap0.8
+d tcpdump libc6
+d telnet netbase
+d telnet libc6
+d thin-provisioning-tools libexpat1
+d thin-provisioning-tools libc6
+d thin-provisioning-tools libgcc1
+d thin-provisioning-tools libaio1
+d time libc6
+d tmux libtinfo5
+d tmux libutempter0
+d tmux libevent-2.1-6
+d tmux libc6
+d tzdata debconf debconf-2.0
+d ubuntu-minimal console-setup
+d ubuntu-minimal initramfs-tools
+d ubuntu-minimal netbase
+d ubuntu-minimal python3
+d ubuntu-minimal isc-dhcp-client
+d ubuntu-minimal iproute2
+d ubuntu-minimal sudo
+d ubuntu-minimal mawk
+d ubuntu-minimal mount
+d ubuntu-minimal lsb-release
+d ubuntu-minimal netcat-openbsd
+d ubuntu-minimal whiptail
+d ubuntu-minimal vim-tiny
+d ubuntu-minimal init
+d ubuntu-minimal nplan
+d ubuntu-minimal kbd
+d ubuntu-minimal adduser
+d ubuntu-minimal iputils-ping
+d ubuntu-minimal apt-utils
+d ubuntu-minimal ubuntu-advantage-tools
+d ubuntu-minimal procps
+d ubuntu-minimal bzip2
+d ubuntu-minimal apt
+d ubuntu-minimal tzdata
+d ubuntu-minimal passwd
+d ubuntu-minimal less
+d ubuntu-minimal sensible-utils
+d ubuntu-minimal udev
+d ubuntu-minimal ubuntu-keyring
+d ubuntu-minimal eject
+d ubuntu-minimal locales
+d ubuntu-minimal debconf-i18n
+d ubuntu-minimal kmod
+d ubuntu-minimal debconf
+d ubuntu-release-upgrader-core ca-certificates
+d ubuntu-release-upgrader-core python3-distupgrade
+d ubuntu-server gnupg
+d ubuntu-server vim
+d ubuntu-server software-properties-common
+d ubuntu-server update-notifier-common
+d ubuntu-server patch
+d ubuntu-server open-iscsi
+d ubuntu-server dirmngr
+d ubuntu-server open-vm-tools
+d ubuntu-server btrfs-tools
+d ubuntu-server pollinate
+d ubuntu-server overlayroot
+d ubuntu-server ethtool
+d ubuntu-server htop
+d ubuntu-server byobu
+d ubuntu-server cloud-initramfs-copymods
+d ubuntu-server cloud-initramfs-dyn-netconf
+d ubuntu-server fonts-ubuntu-console
+d ubuntu-server lvm2
+d ubuntu-server cloud-guest-utils
+d ubuntu-server mdadm
+d ubuntu-server bcache-tools
+d ubuntu-server xfsprogs
+d ubuntu-server sosreport
+d ubuntu-server tmux
+d ubuntu-server apport
+d ubuntu-server screen
+d ubuntu-server net-tools
+d ubuntu-server acpid
+d ubuntu-server git
+d ubuntu-server curl
+d ubuntu-server at
+d ubuntu-standard libpam-systemd
+d ubuntu-standard rsync
+d ubuntu-standard lshw
+d ubuntu-standard logrotate
+d ubuntu-standard man-db
+d ubuntu-standard iptables
+d ubuntu-standard ed
+d ubuntu-standard wget
+d ubuntu-standard dnsutils
+d ubuntu-standard cpio
+d ubuntu-standard file
+d ubuntu-standard pciutils
+d ubuntu-standard lsof
+d ubuntu-standard time
+d ubuntu-standard ltrace
+d ubuntu-standard popularity-contest
+d ubuntu-standard strace
+d ubuntu-standard dmidecode
+d ubuntu-standard psmisc
+d ubuntu-standard hdparm
+d ubuntu-standard usbutils
+d ubuntu-standard busybox-static
+d ubuntu-standard cron
+d ubuntu-standard dosfstools
+d ubuntu-standard ftp
+d ubuntu-standard parted
+d ubuntu-standard language-selector-common
+d ubuntu-standard mime-support
+d ubuntu-standard info
+d ucf sensible-utils
+d ucf debconf
+d ucf coreutils
+d udev util-linux
+d udev libkmod2
+d udev libc6
+d udev procps
+d udev libacl1
+d udev libselinux1
+d udev lsb-base
+d udev libblkid1
+d udev adduser
+d udev libudev1
+d ufw debconf debconf-2.0
+d ufw lsb-base
+d ufw iptables
+d ufw ucf
+d unattended-upgrades powermgmt-base
+d unattended-upgrades debconf debconf-2.0
+d unattended-upgrades lsb-release
+d unattended-upgrades python3-dbus
+d unattended-upgrades python3-apt
+d unattended-upgrades lsb-base
+d unattended-upgrades python3
+d unattended-upgrades xz-utils
+d unattended-upgrades python3-gi
+d unattended-upgrades debconf
+d unattended-upgrades gir1.2-glib-2.0
+d unattended-upgrades ucf
+d update-manager-core distro-info-data
+d update-manager-core lsb-release
+d update-manager-core python3-update-manager
+d update-manager-core python3-distro-info
+d update-manager-core ubuntu-release-upgrader-core
+d update-notifier-common apt
+d update-notifier-common dpkg
+d usbutils zlib1g
+d usbutils libusb-1.0-0
+d usbutils libc6
+d util-linux libsystemd0
+d util-linux libmount1
+d util-linux libc6
+d util-linux libtinfo5
+d util-linux libselinux1
+d util-linux libuuid1
+d util-linux libpam0g
+d util-linux libsmartcols1
+d util-linux libblkid1
+d util-linux libaudit1
+d util-linux zlib1g
+d util-linux libudev1
+d uuid-runtime libuuid1
+d vim libc6
+d vim vim-runtime
+d vim libtinfo5
+d vim libacl1
+d vim libselinux1
+d vim libpython3.6
+d vim vim-common
+d vim libgpm2
+d vim-common xxd
+d vim-tiny libc6
+d vim-tiny libtinfo5
+d vim-tiny libacl1
+d vim-tiny libselinux1
+d vim-tiny vim-common
+d wget libc6
+d wget libpsl5
+d wget libuuid1
+d wget libidn2-0
+d wget libssl1.1
+d wget libpcre3
+d whiptail libpopt0
+d whiptail libnewt0.52
+d whiptail libslang2
+d whiptail libc6
+d xauth libxext6
+d xauth libxmuu1
+d xauth libc6
+d xauth libx11-6
+d xauth libxau6
+d xdg-user-dirs libc6
+d xfsprogs libblkid1
+d xfsprogs libreadline5
+d xfsprogs libuuid1
+d xfsprogs libc6
+d xxd libc6
+d xz-utils liblzma5
+d xz-utils libc6
+d zerofree e2fslibs
+d zerofree libc6
+d libc6 libgcc1
+d libglib2.0-0 libmount1
+d libglib2.0-0 libffi6
+d libglib2.0-0 libc6
+d libglib2.0-0 libselinux1
+d libglib2.0-0 libpcre3
+d libglib2.0-0 zlib1g
+d libaccountsservice0 libsystemd0
+d libaccountsservice0 libglib2.0-0
+d libaccountsservice0 libc6
+d libpolkit-gobject-1-0 libsystemd0
+d libpolkit-gobject-1-0 libglib2.0-0
+d libpolkit-gobject-1-0 libc6
+d gir1.2-glib-2.0 libglib2.0-0
+d gir1.2-glib-2.0 libgirepository-1.0-1
+d libseccomp2 libc6
+d libgnutls30 libgmp10
+d libgnutls30 libc6
+d libgnutls30 libnettle6
+d libgnutls30 libp11-kit0
+d libgnutls30 libidn2-0
+d libgnutls30 libhogweed4
+d libgnutls30 libunistring2
+d libgnutls30 zlib1g
+d libgnutls30 libtasn1-6
+d gpgv1 libbz2-1.0
+d gpgv1 zlib1g
+d gpgv1 libc6
+d gpgv2 gpgv
+d libgcc1 gcc-8-base
+d libgcc1 libc6
+d libapt-pkg5.0 libsystemd0
+d libapt-pkg5.0 zlib1g
+d libapt-pkg5.0 liblz4-1
+d libapt-pkg5.0 libbz2-1.0
+d libapt-pkg5.0 libc6
+d libapt-pkg5.0 libgcc1
+d libapt-pkg5.0 libzstd1
+d libapt-pkg5.0 liblzma5
+d libapt-pkg5.0 libudev1
+d libdb5.3 libc6
+d libapt-inst2.0 libgcc1
+d libapt-inst2.0 libapt-pkg5.0
+d libapt-inst2.0 libc6
+d libselinux1 libpcre3
+d libselinux1 libc6
+d libpam0g libaudit1
+d libpam0g debconf debconf-2.0
+d libpam0g libc6
+d libdebconfclient0 libc6
+d libtinfo5 libc6
+d libreadline7 libtinfo5
+d libreadline7 libc6
+d libreadline7 readline-common
+d libblkid1 libuuid1
+d libblkid1 libc6
+d libuuid1 libc6
+d libisc169 libc6
+d libisc169 libxml2
+d libisc169 libjson-c3
+d libisc169 libssl1.1
+d libisc169 zlib1g
+d libbind9-160 libisc169
+d libbind9-160 libisccfg160
+d libbind9-160 libdns1100
+d libbind9-160 libc6
+d liblwres160 libc6
+d libisccfg160 libisccc160
+d libisccfg160 libisc169
+d libisccfg160 libdns1100
+d libisccfg160 libc6
+d libdns1100 libisc169
+d libdns1100 libc6
+d libdns1100 libxml2
+d libdns1100 libgssapi-krb5-2
+d libdns1100 libgeoip1
+d libdns1100 libssl1.1
+d libdns1100 libkrb5-3
+d libdns1100 libjson-c3
+d libudev1 libc6
+d libbsd0 libc6
+d libsystemd0 libgcrypt20
+d libsystemd0 liblz4-1
+d libsystemd0 liblzma5
+d libsystemd0 libc6
+d liblzo2-2 multiarch-support
+d libzstd1 libc6
+d zlib1g libc6
+d busybox libc6
+d python3-newt libnewt0.52
+d python3-newt python3
+d python3-newt libc6
+d net-tools libselinux1
+d net-tools libc6
+d libbz2-1.0 libc6
+d cloud-utils cloud-guest-utils
+d cloud-utils cloud-image-utils
+d ifupdown lsb-base
+d ifupdown adduser
+d ifupdown iproute2
+d ifupdown libc6
+d console-setup-mini keyboard-configuration
+d console-setup-mini console-setup-linux
+d console-setup-mini debconf debconf-2.0
+d libattr1 libc6
+d libacl1 libattr1
+d libacl1 libc6
+d mt-st libc6
+d libpopt0 libc6
+d libcryptsetup12 libc6
+d libcryptsetup12 libgcrypt20
+d libcryptsetup12 libuuid1
+d libcryptsetup12 libargon2-0
+d libcryptsetup12 libdevmapper1.02.1
+d libcryptsetup12 libgpg-error0
+d libcryptsetup12 libjson-c3
+d libcurl4 libc6
+d libcurl4 libpsl5
+d libcurl4 libnghttp2-14
+d libcurl4 libgssapi-krb5-2
+d libcurl4 libldap-2.4-2
+d libcurl4 libidn2-0
+d libcurl4 librtmp1
+d libcurl4 libssl1.1
+d libcurl4 zlib1g
+d libexpat1 libc6
+d libcap-ng0 libc6
+d libdbus-1-3 libsystemd0
+d libdbus-1-3 libc6
+d libapparmor1 libc6
+d libaudit1 libcap-ng0
+d libaudit1 libc6
+d libaudit1 libaudit-common
+d libpam-systemd libc6
+d libpam-systemd systemd
+d libpam-systemd libpam0g
+d libpam-systemd libpam-runtime
+d libpam-systemd dbus
+d libpam-systemd systemd-sysv
+d libdconf1 libglib2.0-0
+d libdconf1 libc6
+d dialog libncursesw5
+d dialog libtinfo5
+d dialog debianutils
+d dialog libc6
+d cdebconf dpkg
+d cdebconf libc6
+d cdebconf libdebian-installer4
+d cdebconf libselinux1
+d cdebconf libnewt0.52
+d cdebconf libslang2
+d cdebconf libtextwrap1
+d cdebconf debconf
+d debconf-utils debconf
+d menu libgcc1
+d menu libc6
+d libgpg-error0 libc6
+d libnpth0 libc6
+d libgcrypt20 libgpg-error0
+d libgcrypt20 libc6
+d libldap-2.4-2 libc6
+d libldap-2.4-2 libgnutls30
+d libldap-2.4-2 libldap-common
+d libldap-2.4-2 libsasl2-2
+d libldap-2.4-2 libgssapi3-heimdal
+d libassuan0 libgpg-error0
+d libassuan0 libc6
+d libksba8 libgpg-error0
+d libksba8 libc6
+d libdevmapper-event1.02.1 libdevmapper1.02.1
+d libdevmapper-event1.02.1 libc6
+d liblvm2cmd2.02 libsystemd0
+d liblvm2cmd2.02 libdevmapper-event1.02.1
+d liblvm2cmd2.02 libc6
+d liblvm2cmd2.02 libdevmapper1.02.1
+d liblvm2cmd2.02 libblkid1
+d liblvm2cmd2.02 dmeventd
+d liblvm2cmd2.02 libudev1
+d libdevmapper1.02.1 libselinux1
+d libdevmapper1.02.1 libudev1
+d libdevmapper1.02.1 libc6
+d libirs160 libisc169
+d libirs160 libisccfg160
+d libirs160 libdns1100
+d libirs160 libc6
+d libkrb5-3 libc6
+d libkrb5-3 libk5crypto3
+d libkrb5-3 libcom-err2
+d libkrb5-3 libkeyutils1
+d libkrb5-3 libkrb5support0
+d liblzma5 libc6
+d libext2fs2 libc6
+d libcom-err2 libc6
+d libss2 libcom-err2
+d libss2 libc6
+d libeatmydata1 libc6
+d libfdisk1 libblkid1
+d libfdisk1 libuuid1
+d libfdisk1 libc6
+d libmount1 libblkid1
+d libmount1 libselinux1
+d libmount1 libc6
+d libncursesw5 libtinfo5
+d libncursesw5 libc6
+d libsmartcols1 libc6
+d libmagic1 libmagic-mgc
+d libmagic1 zlib1g
+d libmagic1 libc6
+d libfuse2 libc6
+d libgcab-1.0-0 libglib2.0-0
+d libgcab-1.0-0 zlib1g
+d libgcab-1.0-0 libc6
+d libfwupd2 libsoup2.4-1
+d libfwupd2 libglib2.0-0
+d libfwupd2 libjson-glib-1.0-0
+d libfwupd2 libc6
+d libappstream-glib8 libgcab-1.0-0
+d libappstream-glib8 libgdk-pixbuf2.0-0
+d libappstream-glib8 libc6
+d libappstream-glib8 libglib2.0-0
+d libappstream-glib8 libuuid1
+d libappstream-glib8 libyaml-0-2
+d libappstream-glib8 libarchive13
+d libappstream-glib8 libsoup2.4-1
+d libappstream-glib8 libstemmer0d
+d libsqlite3-0 libc6
+d libgudev-1.0-0 libglib2.0-0
+d libgudev-1.0-0 libudev1
+d libgudev-1.0-0 libc6
+d libgusb2 libglib2.0-0
+d libgusb2 libusb-1.0-0
+d libgusb2 libc6
+d libfwup1 libsmbios-c2
+d libfwup1 libefivar1
+d libfwup1 libefiboot1
+d libfwup1 libc6
+d libarchive13 zlib1g
+d libarchive13 liblz4-1
+d libarchive13 libbz2-1.0
+d libarchive13 libc6
+d libarchive13 liblzo2-2
+d libarchive13 libnettle6
+d libarchive13 libacl1
+d libarchive13 libxml2
+d libarchive13 liblzma5
+d libjson-glib-1.0-0 libglib2.0-0
+d libjson-glib-1.0-0 libjson-glib-1.0-common
+d libjson-glib-1.0-0 libc6
+d libsoup2.4-1 libsqlite3-0
+d libsoup2.4-1 libc6
+d libsoup2.4-1 libxml2
+d libsoup2.4-1 libglib2.0-0
+d libsoup2.4-1 libgssapi-krb5-2
+d libsoup2.4-1 glib-networking
+d libelf1 zlib1g
+d libelf1 libc6
+d libgpgme11 libgpg-error0
+d libgpgme11 gnupg gpg
+d libgpgme11 libassuan0
+d libgpgme11 libc6
+d libefivar1 libc6
+d libsigsegv2 libc6
+d libgmp10 libc6
+d libmpfr6 libgmp10
+d libmpfr6 libc6
+d libpackagekit-glib2-18 libglib2.0-0
+d libpackagekit-glib2-18 libc6
+d libcurl3-gnutls libc6
+d libcurl3-gnutls libnettle6
+d libcurl3-gnutls libgnutls30
+d libcurl3-gnutls libgssapi-krb5-2
+d libcurl3-gnutls libldap-2.4-2
+d libcurl3-gnutls libnghttp2-14
+d libcurl3-gnutls libpsl5
+d libcurl3-gnutls libidn2-0
+d libcurl3-gnutls librtmp1
+d libcurl3-gnutls zlib1g
+d libpcre3 libc6
+d libproxy1v5 libgcc1
+d libproxy1v5 libc6
+d dconf-gsettings-backend libglib2.0-0
+d dconf-gsettings-backend libdconf1
+d dconf-gsettings-backend dconf-service
+d dconf-gsettings-backend libc6
+d module-init-tools kmod
+d libxtables12 libc6
+d libmnl0 libc6
+d libcap2 libc6
+d libnetfilter-conntrack3 libmnl0
+d libnetfilter-conntrack3 libnfnetlink0
+d libnetfilter-conntrack3 libc6
+d libip6tc0 libc6
+d libnfnetlink0 multiarch-support
+d libiptc0 libc6
+d libip4tc0 libc6
+d libnettle6 libc6
+d libidn11 libc6
+d libncurses5 libtinfo5
+d libncurses5 libc6
+d libnuma1 libc6
+d libdns-export1100 libssl1.1
+d libdns-export1100 libisc-export169
+d libdns-export1100 libc6
+d libisc-export169 libssl1.1
+d libisc-export169 zlib1g
+d libisc-export169 libc6
+d libkmod2 libc6
+d python3-gdbm libgdbm5
+d python3-gdbm python3
+d python3-gdbm libc6
+d libpam-modules debconf debconf-2.0
+d libpam-modules libdb5.3
+d libpam-modules libc6
+d libpam-modules libselinux1
+d libpam-modules libpam0g
+d libpam-modules libpam-modules-bin
+d libpam-modules libaudit1
+d backupninja gawk mawk
+d backupninja bash
+d backupninja dialog
+d backupninja bsd-mailx mailutils mailx
+d gnunet libmicrohttpd12
+d gnunet libgcrypt20
+d gnunet libpq5
+d gnunet netbase
+d gnunet libidn11
+d gnunet libunistring2
+d gnunet libogg0
+d gnunet libsqlite3-0
+d gnunet libgnutls30
+d gnunet libcurl3-gnutls
+d gnunet libglpk40
+d gnunet lsb-base
+d gnunet adduser
+d gnunet debconf debconf-2.0
+d gnunet libltdl7
+d gnunet libopus0
+d gnunet libmysqlclient20
+d gnunet zlib1g
+d gnunet libextractor3
+d gnunet libc6
+d gnunet libpulse0
+d gnunet libgnutls-dane0
+d amavisd-new libconvert-tnef-perl
+d amavisd-new libnet-libidn-perl
+d amavisd-new libberkeleydb-perl
+d amavisd-new libarchive-zip-perl
+d amavisd-new libdigest-md5-perl
+d amavisd-new libcompress-raw-zlib-perl perl
+d amavisd-new libio-stringy-perl
+d amavisd-new libmailtools-perl
+d amavisd-new libnet-server-perl
+d amavisd-new lsb-base
+d amavisd-new libmail-dkim-perl
+d amavisd-new file
+d amavisd-new libunix-syslog-perl
+d amavisd-new adduser
+d amavisd-new perl
+d amavisd-new pax
+d amavisd-new debconf debconf-2.0
+d amavisd-new libmime-tools-perl
+d amavisd-new libtime-hires-perl
+d amavisd-new libmime-base64-perl
+d amavisd-new libarchive-tar-perl
+d amavisd-new libconvert-uulib-perl
+d anacron debianutils
+d anacron lsb-base
+d anacron init-system-helpers
+d anacron libc6
+d libreadline5 libtinfo5
+d libreadline5 libc6
+d libreadline5 readline-common
+d liblvm2app2.2 libsystemd0
+d liblvm2app2.2 libdevmapper-event1.02.1
+d liblvm2app2.2 libc6
+d liblvm2app2.2 libdevmapper1.02.1
+d liblvm2app2.2 libblkid1
+d liblvm2app2.2 libudev1
+d librados2 libc6
+d librados2 libnspr4
+d librados2 libgcc1
+d librados2 libnss3
+d librados2 libblkid1
+d librados2 libibverbs1
+d librados2 zlib1g
+d libaio1 libc6
+d liburcu6 libc6
+d libjson-c3 libc6
+d libyaml-0-2 libc6
+d netplan adduser
+d netplan libc6
+d libxmlsec1 libxml2
+d libxmlsec1 libxslt1.1
+d libxmlsec1 libc6
+d libxml2 libicu60
+d libxml2 zlib1g
+d libxml2 liblzma5
+d libxml2 libc6
+d libxmlsec1-openssl libxml2
+d libxmlsec1-openssl libssl1.1
+d libxmlsec1-openssl libxmlsec1
+d libxmlsec1-openssl libc6
+d libdumbnet1 libc6
+d libmspack0 libc6
+d libicu60 libgcc1
+d libicu60 libc6
+d libssl1.1 debconf debconf-2.0
+d libssl1.1 libc6
+d libdrm2 libdrm-common
+d libdrm2 libc6
+d libssl1.0.0 debconf debconf-2.0
+d libssl1.0.0 libc6
+d libgssapi-krb5-2 libc6
+d libgssapi-krb5-2 libk5crypto3
+d libgssapi-krb5-2 libcom-err2
+d libgssapi-krb5-2 libkrb5-3
+d libgssapi-krb5-2 libkrb5support0
+d libedit2 libtinfo5
+d libedit2 libc6
+d libappstream4 libc6
+d libappstream4 libxml2
+d libappstream4 libglib2.0-0
+d libappstream4 libyaml-0-2
+d libappstream4 libstemmer0d
+d libgstreamer1.0-0 libcap2
+d libgstreamer1.0-0 libglib2.0-0
+d libgstreamer1.0-0 libcap2-bin
+d libgstreamer1.0-0 libc6
+d libparted2 libblkid1
+d libparted2 libuuid1
+d libparted2 libdevmapper1.02.1
+d libparted2 libc6
+d libsemanage1 libc6
+d libsemanage1 libbz2-1.0
+d libsemanage1 libsepol1
+d libsemanage1 libselinux1
+d libsemanage1 libsemanage-common
+d libsemanage1 libaudit1
+d libpci3 zlib1g
+d libpci3 libudev1
+d libpci3 libc6
+d libjson-pp-perl perl
+d mono-gac mono-4.0-gac
+d safe-rm debconf
+d update-inetd debconf debconf-2.0
+d update-inetd libfile-copy-recursive-perl
+d update-inetd libfile-temp-perl
+d doc-base libuuid-perl
+d doc-base libyaml-tiny-perl
+d libplymouth4 libpng16-16
+d libplymouth4 libudev1
+d libplymouth4 libc6
+d console-common debconf debconf-2.0
+d libpolkit-backend-1-0 libsystemd0
+d libpolkit-backend-1-0 libexpat1
+d libpolkit-backend-1-0 libc6
+d libpolkit-backend-1-0 libglib2.0-0
+d libpolkit-backend-1-0 libpolkit-gobject-1-0
+d libpolkit-agent-1-0 libpolkit-gobject-1-0
+d libpolkit-agent-1-0 libglib2.0-0
+d libpolkit-agent-1-0 libc6
+d libprocps6 libsystemd0
+d libprocps6 libc6
+d libffi6 libc6
+d libgirepository-1.0-1 libffi6
+d libgirepository-1.0-1 libglib2.0-0
+d libgirepository-1.0-1 libc6
+d python3.6-minimal libc6
+d libsodium23 libc6
+d python3-twisted-bin python3
+d python3-twisted-bin libc6
+d libpython3.7-stdlib libdb5.3
+d libpython3.7-stdlib libc6
+d libpython3.7-stdlib libbz2-1.0
+d libpython3.7-stdlib libffi6
+d libpython3.7-stdlib libncursesw5
+d libpython3.7-stdlib libsqlite3-0
+d libpython3.7-stdlib libtinfo5
+d libpython3.7-stdlib libmpdec2
+d libpython3.7-stdlib libpython3.7-minimal
+d libpython3.7-stdlib mime-support
+d libpython3.7-stdlib libreadline7
+d libpython3.7-stdlib liblzma5
+d binfmt-support lsb-base
+d binfmt-support libpipeline1
+d binfmt-support libc6
+d libfastjson4 libc6
+d libestr0 libc6
+d libutempter0 libc6
+d snap libc6
+d liblz4-1 libc6
+d libunwind8 liblzma5
+d libunwind8 libc6
+d sudo-ldap libc6
+d sudo-ldap libldap-2.4-2
+d sudo-ldap libselinux1
+d sudo-ldap libpam0g
+d sudo-ldap lsb-base
+d sudo-ldap libpam-modules
+d sudo-ldap libaudit1
+d libpcap0.8 libc6
+d libevent-2.1-6 libc6
+d nplan netplan.io
+d btrfs-tools btrfs-progs
+d acpid lsb-base
+d acpid init-system-helpers
+d acpid kmod
+d acpid libc6
+d libusb-1.0-0 libudev1
+d libusb-1.0-0 libc6
+d libpython3.6 libexpat1
+d libpython3.6 zlib1g
+d libpython3.6 libpython3.6-stdlib
+d libpython3.6 libc6
+d libgpm2 libc6
+d libpsl5 libunistring2
+d libpsl5 libidn2-0
+d libpsl5 libc6
+d libidn2-0 libunistring2
+d libidn2-0 libc6
+d libnewt0.52 libslang2
+d libnewt0.52 libc6
+d libslang2 libc6
+d libxext6 multiarch-support
+d libxmuu1 libx11-6
+d libxmuu1 libc6
+d libx11-6 libxcb1
+d libx11-6 libx11-data
+d libx11-6 libc6
+d libxau6 multiarch-support
+d lzma libgcc1
+d lzma libc6
+d e2fslibs libext2fs2
+d libp11-kit0 libffi6
+d libp11-kit0 libc6
+d libhogweed4 libnettle6
+d libhogweed4 libgmp10
+d libhogweed4 libc6
+d libunistring2 libc6
+d libtasn1-6 libc6
+d libisccc160 libisc169
+d libisccc160 libc6
+d libgeoip1 libc6
+d multiarch-support libc6
+d cloud-image-utils wget
+d cloud-image-utils ca-certificates
+d cloud-image-utils qemu-utils
+d cloud-image-utils e2fsprogs
+d cloud-image-utils file
+d cloud-image-utils genisoimage
+d attr libattr1
+d attr libc6
+d acl libacl1
+d acl libc6
+d libpopt-dev libpopt0
+d libpopt-dev libc-dev libc6-dev
+d rpm librpmio8
+d rpm debugedit
+d rpm librpmsign8
+d rpm libc6
+d rpm librpm8
+d rpm librpmbuild8
+d rpm libpopt0
+d rpm libelf1
+d rpm rpm-common
+d rpm rpm2cpio
+d libargon2-0 libc6
+d libnghttp2-14 libc6
+d librtmp1 libgmp10
+d librtmp1 libc6
+d librtmp1 libnettle6
+d librtmp1 libgnutls30
+d librtmp1 libhogweed4
+d librtmp1 zlib1g
+d libcurl3 libssl1.0.0
+d libcurl3 libc6
+d libcurl3 libpsl5
+d libcurl3 libnghttp2-14
+d libcurl3 libgssapi-krb5-2
+d libcurl3 libldap-2.4-2
+d libcurl3 libidn2-0
+d libcurl3 librtmp1
+d libcurl3 zlib1g
+d libdebian-installer4 libc6
+d libtextwrap1 libc6
+d libsasl2-2 libc6
+d libsasl2-2 libsasl2-modules-db
+d libgssapi3-heimdal libroken18-heimdal
+d libgssapi3-heimdal libkrb5-26-heimdal
+d libgssapi3-heimdal libc6
+d libgssapi3-heimdal libasn1-8-heimdal
+d libgssapi3-heimdal libhcrypto4-heimdal
+d libgssapi3-heimdal libheimntlm0-heimdal
+d libgssapi3-heimdal libcomerr2
+d ldap-utils libsasl2-2
+d ldap-utils libldap-2.4-2
+d ldap-utils libc6
+d libk5crypto3 libkrb5support0
+d libk5crypto3 libc6
+d libkeyutils1 libc6
+d libkrb5support0 libc6
+d libgdk-pixbuf2.0-0 libgdk-pixbuf2.0-common
+d libgdk-pixbuf2.0-0 libpng16-16
+d libgdk-pixbuf2.0-0 libjpeg8
+d libgdk-pixbuf2.0-0 libtiff5
+d libgdk-pixbuf2.0-0 libc6
+d libgdk-pixbuf2.0-0 libglib2.0-0
+d libgdk-pixbuf2.0-0 libx11-6
+d libgdk-pixbuf2.0-0 shared-mime-info
+d libstemmer0d libc6
+d libefiboot1 libefivar1
+d libefiboot1 libc6
+d glib-networking glib-networking-common
+d glib-networking glib-networking-services
+d glib-networking libc6
+d glib-networking libp11-kit0
+d glib-networking libglib2.0-0
+d glib-networking libgnutls30
+d glib-networking libproxy1v5
+d glib-networking gsettings-desktop-schemas
+d libpcre3-dev libpcre32-3
+d libpcre3-dev libpcrecpp0v5
+d libpcre3-dev libpcre16-3
+d libpcre3-dev libpcre3
+d libpcre3-dev libc6-dev
+d libgdbm5 libc6
+d bsd-mailx libc6
+d bsd-mailx default-mta mail-transport-agent
+d bsd-mailx libbsd0
+d bsd-mailx liblockfile1
+d bsd-mailx base-files
+d mailutils libfribidi0
+d mailutils libc6
+d mailutils default-mta mail-transport-agent
+d mailutils mailutils-common
+d mailutils libwrap0
+d mailutils guile-2.0-libs
+d mailutils libreadline7
+d mailutils libmailutils5
+d libmicrohttpd12 libgnutls30
+d libmicrohttpd12 libc6
+d libpq5 libssl1.1
+d libpq5 libgssapi-krb5-2
+d libpq5 libldap-2.4-2
+d libpq5 libc6
+d libogg0 multiarch-support
+d libglpk40 libgmp10
+d libglpk40 libltdl7
+d libglpk40 libcolamd2
+d libglpk40 libc6
+d libglpk40 libamd2
+d libglpk40 zlib1g
+d libltdl7 libc6
+d libopus0 libc6
+d libmysqlclient20 libc6
+d libmysqlclient20 libgcc1
+d libmysqlclient20 mysql-common
+d libmysqlclient20 libssl1.1
+d libmysqlclient20 zlib1g
+d libextractor3 libswscale4
+d libextractor3 libgcc1
+d libextractor3 libsmf0
+d libextractor3 libgstreamer-plugins-base1.0-0
+d libextractor3 libavformat57
+d libextractor3 libexiv2-14
+d libextractor3 libgstreamer1.0-0
+d libextractor3 libavresample3
+d libextractor3 libvorbisfile3
+d libextractor3 libltdl7
+d libextractor3 libvorbis0a
+d libextractor3 libjpeg8
+d libextractor3 libgdk-pixbuf2.0-0
+d libextractor3 libavutil55
+d libextractor3 libglib2.0-0
+d libextractor3 libmagic1
+d libextractor3 libflac8
+d libextractor3 zlib1g
+d libextractor3 libc6
+d libextractor3 libbz2-1.0
+d libextractor3 libtiff5
+d libextractor3 libmpeg2-4
+d libextractor3 libavcodec-extra57 libavcodec57
+d libextractor3 libgsf-1-114
+d libextractor3 libtidy5
+d libextractor3 librpm8
+d libextractor3 libgif7
+d libextractor3 libarchive13
+d libpulse0 libsystemd0
+d libpulse0 libc6
+d libpulse0 libwrap0
+d libpulse0 libdbus-1-3
+d libpulse0 libasyncns0
+d libpulse0 libsndfile1
+d libpulse0 libxcb1
+d libgnutls-dane0 libgnutls30
+d libgnutls-dane0 libunbound2
+d libgnutls-dane0 libc6
+d libconvert-tnef-perl perl
+d libconvert-tnef-perl libmime-tools-perl
+d libconvert-tnef-perl libio-stringy-perl
+d libnet-libidn-perl perl
+d libnet-libidn-perl libidn11
+d libnet-libidn-perl perlapi-5.26.0
+d libnet-libidn-perl libc6
+d libberkeleydb-perl perl
+d libberkeleydb-perl perlapi-5.26.1
+d libberkeleydb-perl libdb5.3
+d libberkeleydb-perl libc6
+d libarchive-zip-perl perl
+d libcompress-raw-zlib-perl perl
+d libcompress-raw-zlib-perl perlapi-5.26.1
+d libcompress-raw-zlib-perl zlib1g
+d libcompress-raw-zlib-perl libc6
+d libio-stringy-perl perl
+d libmailtools-perl perl
+d libmailtools-perl libnet-smtp-ssl-perl
+d libmailtools-perl libtimedate-perl
+d libmailtools-perl libnet-perl
+d libnet-server-perl perl
+d libnet-server-perl libcgi-pm-perl perl
+d libnet-server-perl libio-socket-inet6-perl
+d libnet-server-perl libnet-cidr-perl
+d libnet-server-perl libio-socket-ssl-perl
+d libnet-server-perl libsocket6-perl
+d libnet-server-perl libnet-ssleay-perl
+d libnet-server-perl libio-multiplex-perl
+d libmail-dkim-perl perl
+d libmail-dkim-perl liberror-perl
+d libmail-dkim-perl libmailtools-perl
+d libmail-dkim-perl libdigest-sha-perl
+d libmail-dkim-perl libnet-dns-perl
+d libmail-dkim-perl libcrypt-openssl-rsa-perl
+d libunix-syslog-perl perl
+d libunix-syslog-perl perlapi-5.26.0
+d libunix-syslog-perl libc6
+d pax libc6
+d libmime-tools-perl perl
+d libmime-tools-perl libconvert-binhex-perl
+d libmime-tools-perl libmailtools-perl
+d libconvert-uulib-perl perl
+d libconvert-uulib-perl perlapi-5.26.1
+d libconvert-uulib-perl libc6
+d logcheck cron cron-daemon
+d logcheck default-mta mail-transport-agent
+d logcheck rsyslog system-log-daemon
+d logcheck mime-construct
+d logcheck logtail
+d logcheck lockfile-progs
+d logcheck adduser
+d libnspr4 libc6
+d libnss3 libnspr4
+d libnss3 libsqlite3-0
+d libnss3 libc6
+d libibverbs1 libnl-route-3-200
+d libibverbs1 adduser
+d libibverbs1 libnl-3-200
+d libibverbs1 libc6
+d plan libxt6
+d plan debconf debconf-2.0
+d plan libc6
+d plan libx11-6
+d plan libxm4
+d libxslt1.1 libxml2
+d libxslt1.1 libgcrypt20
+d libxslt1.1 libc6
+d libsepol1 libc6
+d mono-4.0-gac libc6
+d mono-4.0-gac libmono-corlib4.5-cil
+d mono-4.0-gac libmono-security4.0-cil
+d libfile-copy-recursive-perl perl
+d libuuid-perl libuuid1
+d libuuid-perl perl-base
+d libuuid-perl perlapi-5.26.0
+d libuuid-perl libc6
+d libyaml-tiny-perl perl
+d libpng16-16 zlib1g
+d libpng16-16 libc6
+d libmpdec2 libc6
+d libpython3.7-minimal libssl1.1
+d libpython3.7-minimal libc6
+d libpipeline1 libc6
+d libpython3.6-stdlib libdb5.3
+d libpython3.6-stdlib libc6
+d libpython3.6-stdlib libbz2-1.0
+d libpython3.6-stdlib libffi6
+d libpython3.6-stdlib libncursesw5
+d libpython3.6-stdlib libsqlite3-0
+d libpython3.6-stdlib libtinfo5
+d libpython3.6-stdlib libmpdec2
+d libpython3.6-stdlib libpython3.6-minimal
+d libpython3.6-stdlib mime-support
+d libpython3.6-stdlib libreadline7
+d libpython3.6-stdlib liblzma5
+d libxcb1 libxau6
+d libxcb1 libxdmcp6
+d libxcb1 libc6
+d qemu-utils libc6
+d qemu-utils libnettle6
+d qemu-utils libglib2.0-0
+d qemu-utils libgnutls30
+d qemu-utils libgcc1
+d qemu-utils qemu-block-extra
+d qemu-utils libaio1
+d qemu-utils zlib1g
+d genisoimage libbz2-1.0
+d genisoimage libmagic1
+d genisoimage zlib1g
+d genisoimage libc6
+d xfsdump libc6
+d xfsdump libtinfo5
+d xfsdump libncurses5
+d xfsdump xfsprogs
+d xfsdump libuuid1
+d xfsdump libattr1
+d libc6-dev linux-libc-dev
+d libc6-dev libc-dev-bin
+d libc6-dev libc6
+d librpmio8 zlib1g
+d librpmio8 libc6
+d librpmio8 libbz2-1.0
+d librpmio8 libnss3
+d librpmio8 libzstd1
+d librpmio8 liblua5.2-0
+d librpmio8 libpopt0
+d librpmio8 libelf1
+d librpmio8 liblzma5
+d debugedit librpmio8
+d debugedit libdw1
+d debugedit libc6
+d debugedit libpopt0
+d debugedit libelf1
+d librpmsign8 libpopt0
+d librpmsign8 librpm8
+d librpmsign8 librpmio8
+d librpmsign8 libc6
+d librpm8 librpmio8
+d librpm8 libdb5.3
+d librpm8 libc6
+d librpm8 liblua5.2-0
+d librpm8 libpopt0
+d librpm8 libcap2
+d librpmbuild8 librpmio8
+d librpmbuild8 libdw1
+d librpmbuild8 libc6
+d librpmbuild8 librpm8
+d librpmbuild8 libmagic1
+d librpmbuild8 libpopt0
+d librpmbuild8 libelf1
+d rpm-common librpmio8
+d rpm-common libc6
+d rpm-common libselinux1
+d rpm-common libdbus-1-3
+d rpm-common librpm8
+d rpm2cpio librpmio8
+d rpm2cpio libc6
+d rpm2cpio librpm8
+d rpm2cpio libarchive13
+d rpm2cpio rpm-common
+d libsasl2-modules-db libdb5.3
+d libsasl2-modules-db libc6
+d libroken18-heimdal libc6
+d libkrb5-26-heimdal libroken18-heimdal
+d libkrb5-26-heimdal libsqlite3-0
+d libkrb5-26-heimdal libc6
+d libkrb5-26-heimdal libasn1-8-heimdal
+d libkrb5-26-heimdal libhcrypto4-heimdal
+d libkrb5-26-heimdal libwind0-heimdal
+d libkrb5-26-heimdal libheimbase1-heimdal
+d libkrb5-26-heimdal libhx509-5-heimdal
+d libkrb5-26-heimdal libcomerr2
+d libasn1-8-heimdal libroken18-heimdal
+d libasn1-8-heimdal libcomerr2
+d libasn1-8-heimdal libc6
+d libhcrypto4-heimdal libroken18-heimdal
+d libhcrypto4-heimdal libheimbase1-heimdal
+d libhcrypto4-heimdal libasn1-8-heimdal
+d libhcrypto4-heimdal libc6
+d libheimntlm0-heimdal libroken18-heimdal
+d libheimntlm0-heimdal libkrb5-26-heimdal
+d libheimntlm0-heimdal libc6
+d libheimntlm0-heimdal libhcrypto4-heimdal
+d libheimntlm0-heimdal libwind0-heimdal
+d libcomerr2 libcom-err2
+d libjpeg8 libjpeg-turbo8
+d libtiff5 libjbig0
+d libtiff5 libjpeg8
+d libtiff5 libc6
+d libtiff5 liblzma5
+d libtiff5 zlib1g
+d libpcre32-3 libc6
+d libpcrecpp0v5 libpcre3
+d libpcrecpp0v5 libgcc1
+d libpcrecpp0v5 libc6
+d libpcre16-3 libc6
+d liblockfile1 liblockfile-bin
+d liblockfile1 libc6
+d libfribidi0 libc6
+d libwrap0 libc6
+d guile-2.0-libs libgmp10
+d guile-2.0-libs libltdl7
+d guile-2.0-libs libc6
+d guile-2.0-libs libffi6
+d guile-2.0-libs libgc1c2
+d guile-2.0-libs libreadline7
+d guile-2.0-libs libunistring2
+d libmailutils5 libpython2.7
+d libmailutils5 libgsasl7
+d libmailutils5 libltdl7
+d libmailutils5 libc6
+d libmailutils5 mailutils-common
+d libmailutils5 libgnutls30
+d libmailutils5 libldap-2.4-2
+d libmailutils5 guile-2.0-libs
+d libmailutils5 libpam0g
+d libmailutils5 libmysqlclient20
+d libmailutils5 libkyotocabinet16v5
+d libcolamd2 libsuitesparseconfig5
+d libcolamd2 libc6
+d libamd2 libsuitesparseconfig5
+d libamd2 libc6
+d libswscale4 libavutil55
+d libswscale4 libc6
+d libsmf0 libglib2.0-0
+d libsmf0 libc6
+d libgstreamer-plugins-base1.0-0 libc6
+d libgstreamer-plugins-base1.0-0 iso-codes
+d libgstreamer-plugins-base1.0-0 libglib2.0-0
+d libgstreamer-plugins-base1.0-0 liborc-0.4-0
+d libgstreamer-plugins-base1.0-0 libgstreamer1.0-0
+d libgstreamer-plugins-base1.0-0 zlib1g
+d libavformat57 libssh-gcrypt-4
+d libavformat57 libopenmpt0
+d libavformat57 libc6
+d libavformat57 libbz2-1.0
+d libavformat57 libavutil55
+d libavformat57 libgme0
+d libavformat57 libgnutls30
+d libavformat57 libavcodec-extra57 libavcodec57
+d libavformat57 libxml2
+d libavformat57 libbluray2
+d libavformat57 libchromaprint1
+d libavformat57 zlib1g
+d libexiv2-14 libexpat1
+d libexiv2-14 libc6
+d libexiv2-14 libgcc1
+d libexiv2-14 zlib1g
+d libavresample3 libavutil55
+d libavresample3 libc6
+d libvorbisfile3 libogg0
+d libvorbisfile3 libvorbis0a
+d libvorbisfile3 libc6
+d libvorbis0a libogg0
+d libvorbis0a libc6
+d libavutil55 libc6
+d libavutil55 libvdpau1
+d libavutil55 libva2
+d libavutil55 libx11-6
+d libavutil55 libva-x11-2
+d libavutil55 libdrm2
+d libavutil55 libva-drm2
+d libflac8 libogg0
+d libflac8 libc6
+d libmpeg2-4 libc6
+d libavcodec-extra57 libcrystalhd3
+d libavcodec-extra57 libtheora0
+d libavcodec-extra57 libwebp6
+d libavcodec-extra57 libswresample2
+d libavcodec-extra57 libshine3
+d libavcodec-extra57 libsnappy1v5
+d libavcodec-extra57 libvo-amrwbenc0
+d libavcodec-extra57 libopencore-amrwb0
+d libavcodec-extra57 libx264-152
+d libavcodec-extra57 libtwolame0
+d libavcodec-extra57 libopencore-amrnb0
+d libavcodec-extra57 libvpx5
+d libavcodec-extra57 libx265-146
+d libavcodec-extra57 libwavpack1
+d libavcodec-extra57 librsvg2-2
+d libavcodec-extra57 libvorbis0a
+d libavcodec-extra57 libopus0
+d libavcodec-extra57 libavutil55
+d libavcodec-extra57 libglib2.0-0
+d libavcodec-extra57 libva2
+d libavcodec-extra57 libvorbisenc2
+d libavcodec-extra57 libzvbi0
+d libavcodec-extra57 libxvidcore4
+d libavcodec-extra57 liblzma5
+d libavcodec-extra57 libopenjp2-7
+d libavcodec-extra57 zlib1g
+d libavcodec-extra57 libmp3lame0
+d libavcodec-extra57 libcairo2
+d libavcodec-extra57 libc6
+d libavcodec-extra57 libspeex1
+d libavcodec-extra57 libwebpmux3
+d libavcodec-extra57 libgsm1
+d libavcodec57 libcrystalhd3
+d libavcodec57 libtheora0
+d libavcodec57 libwebp6
+d libavcodec57 libswresample2
+d libavcodec57 libshine3
+d libavcodec57 libsnappy1v5
+d libavcodec57 libx264-152
+d libavcodec57 libtwolame0
+d libavcodec57 libvpx5
+d libavcodec57 libx265-146
+d libavcodec57 libwavpack1
+d libavcodec57 librsvg2-2
+d libavcodec57 libvorbis0a
+d libavcodec57 libopus0
+d libavcodec57 libavutil55
+d libavcodec57 libglib2.0-0
+d libavcodec57 libva2
+d libavcodec57 libvorbisenc2
+d libavcodec57 libzvbi0
+d libavcodec57 libxvidcore4
+d libavcodec57 liblzma5
+d libavcodec57 libopenjp2-7
+d libavcodec57 zlib1g
+d libavcodec57 libmp3lame0
+d libavcodec57 libcairo2
+d libavcodec57 libc6
+d libavcodec57 libspeex1
+d libavcodec57 libwebpmux3
+d libavcodec57 libgsm1
+d libgsf-1-114 libgsf-1-common
+d libgsf-1-114 libc6
+d libgsf-1-114 libbz2-1.0
+d libgsf-1-114 libxml2
+d libgsf-1-114 libglib2.0-0
+d libgsf-1-114 zlib1g
+d libtidy5 libc6
+d libgif7 libc6
+d libasyncns0 libc6
+d libsndfile1 libogg0
+d libsndfile1 libvorbis0a
+d libsndfile1 libc6
+d libsndfile1 libvorbisenc2
+d libsndfile1 libflac8
+d libunbound2 libgmp10
+d libunbound2 libevent-2.1-6
+d libunbound2 libc6
+d libunbound2 libnettle6
+d libunbound2 libhogweed4
+d libnet-smtp-ssl-perl perl
+d libnet-smtp-ssl-perl libio-socket-ssl-perl
+d libtimedate-perl perl
+d libcgi-pm-perl perl
+d libcgi-pm-perl libhtml-parser-perl
+d libio-socket-inet6-perl perl
+d libio-socket-inet6-perl libsocket6-perl
+d libnet-cidr-perl perl
+d libio-socket-ssl-perl perl
+d libio-socket-ssl-perl libnet-ssleay-perl
+d libio-socket-ssl-perl libssl1.1
+d libio-socket-ssl-perl netbase
+d libsocket6-perl perl
+d libsocket6-perl perlapi-5.26.0
+d libsocket6-perl libc6
+d libnet-ssleay-perl perl
+d libnet-ssleay-perl libc6
+d libnet-ssleay-perl perl-openssl-abi-1.1
+d libnet-ssleay-perl libssl1.1
+d libnet-ssleay-perl perlapi-5.26.1
+d libio-multiplex-perl perl
+d libdigest-sha-perl perl
+d libdigest-sha-perl perlapi-5.26.1
+d libdigest-sha-perl libc6
+d libnet-dns-perl perl
+d libnet-dns-perl libio-socket-inet6-perl
+d libnet-dns-perl libdigest-hmac-perl
+d libnet-dns-perl libnet-ip-perl
+d libcrypt-openssl-rsa-perl perl
+d libcrypt-openssl-rsa-perl libc6
+d libcrypt-openssl-rsa-perl perl-openssl-abi-1.1
+d libcrypt-openssl-rsa-perl libssl1.1
+d libcrypt-openssl-rsa-perl perlapi-5.26.1
+d libcrypt-openssl-rsa-perl libcrypt-openssl-bignum-perl
+d libconvert-binhex-perl perl
+d mime-construct perl
+d mime-construct libmime-types-perl
+d mime-construct libproc-waitstat-perl
+d mime-construct libmime-base64-perl
+d logtail perl
+d lockfile-progs liblockfile1
+d lockfile-progs libc6
+d libnl-route-3-200 libc6
+d libnl-route-3-200 libnl-3-200
+d libnl-3-200 libc6
+d libxt6 libx11-6
+d libxt6 libice6
+d libxt6 libsm6
+d libxt6 libc6
+d libxm4 x11-common
+d libmono-corlib4.5-cil tzdata
+d libmono-corlib4.5-cil mono-runtime
+d libmono-security4.0-cil libmono-system4.0-cil
+d libmono-security4.0-cil libmono-corlib4.5-cil
+d libpython3.6-minimal libssl1.1
+d libpython3.6-minimal libc6
+d libxdmcp6 libbsd0
+d libxdmcp6 libc6
+d qemu-block-extra librbd1
+d qemu-block-extra libc6
+d qemu-block-extra libglib2.0-0
+d qemu-block-extra libiscsi7
+d qemu-block-extra libcurl3-gnutls
+d qemu-block-extra librados2
+d libc-dev-bin libc6
+d liblua5.2-0 libc6
+d libdw1 libc6
+d libdw1 libbz2-1.0
+d libdw1 libelf1
+d libdw1 liblzma5
+d libdw1 zlib1g
+d libwind0-heimdal libroken18-heimdal
+d libwind0-heimdal libcomerr2
+d libwind0-heimdal libc6
+d libheimbase1-heimdal libc6
+d libhx509-5-heimdal libroken18-heimdal
+d libhx509-5-heimdal libc6
+d libhx509-5-heimdal libasn1-8-heimdal
+d libhx509-5-heimdal libhcrypto4-heimdal
+d libhx509-5-heimdal libwind0-heimdal
+d libhx509-5-heimdal libheimbase1-heimdal
+d libhx509-5-heimdal libcomerr2
+d libjpeg-turbo8 multiarch-support
+d libjbig0 libc6
+d liblockfile-bin libc6
+d libgc1c2 libc6
+d libpython2.7 libpython2.7-stdlib
+d libpython2.7 zlib1g
+d libpython2.7 libc6
+d libgsasl7 libntlm0
+d libgsasl7 libgssapi-krb5-2
+d libgsasl7 libidn11
+d libgsasl7 libc6
+d libkyotocabinet16v5 zlib1g
+d libkyotocabinet16v5 liblzo2-2
+d libkyotocabinet16v5 libc6
+d libkyotocabinet16v5 libgcc1
+d libkyotocabinet16v5 liblzma5
+d libsuitesparseconfig5 libc6
+d liborc-0.4-0 libc6
+d libgstreamer-plugins-bad1.0-0 libgstreamer-plugins-base1.0-0
+d libgstreamer-plugins-bad1.0-0 libgstreamer1.0-0
+d libgstreamer-plugins-bad1.0-0 libglib2.0-0
+d libgstreamer-plugins-bad1.0-0 libc6
+d libssh-gcrypt-4 libgcrypt20
+d libssh-gcrypt-4 libgssapi-krb5-2
+d libssh-gcrypt-4 zlib1g
+d libssh-gcrypt-4 libc6
+d libopenmpt0 libvorbisfile3
+d libopenmpt0 libvorbis0a
+d libopenmpt0 libmpg123-0
+d libopenmpt0 libc6
+d libopenmpt0 libgcc1
+d libopenmpt0 zlib1g
+d libgme0 zlib1g
+d libgme0 libgcc1
+d libgme0 libc6
+d libbluray2 libxml2
+d libbluray2 libfontconfig1
+d libbluray2 libfreetype6
+d libbluray2 libc6
+d libchromaprint1 libc6
+d libchromaprint1 libavutil55
+d libchromaprint1 libavcodec-extra57 libavcodec57
+d libchromaprint1 libgcc1
+d libvdpau1 libxext6
+d libvdpau1 libx11-6
+d libvdpau1 libc6
+d libva2 libc6
+d libva-x11-2 libxext6
+d libva-x11-2 libc6
+d libva-x11-2 libx11-6
+d libva-x11-2 libva2
+d libva-x11-2 libxfixes3
+d libva-x11-2 libdrm2
+d libva-drm2 libva2
+d libva-drm2 libdrm2
+d libva-drm2 libc6
+d libcrystalhd3 libc6
+d libtheora0 libogg0
+d libtheora0 libcairo2
+d libtheora0 libc6
+d libwebp6 libc6
+d libswresample2 libavutil55
+d libswresample2 libsoxr0
+d libswresample2 libc6
+d libshine3 libc6
+d libsnappy1v5 libgcc1
+d libsnappy1v5 libc6
+d libvo-amrwbenc0 multiarch-support
+d libopencore-amrwb0 multiarch-support
+d libx264-152 libc6
+d libtwolame0 libc6
+d libopencore-amrnb0 multiarch-support
+d libvpx5 libc6
+d libx265-146 libnuma1
+d libx265-146 libc6
+d libwavpack1 libc6
+d librsvg2-2 libcairo2
+d librsvg2-2 libgdk-pixbuf2.0-0
+d librsvg2-2 libc6
+d librsvg2-2 libcroco3
+d librsvg2-2 libglib2.0-0
+d librsvg2-2 libfontconfig1
+d librsvg2-2 libxml2
+d librsvg2-2 libpango-1.0-0
+d librsvg2-2 libpangocairo-1.0-0
+d librsvg2-2 libpangoft2-1.0-0
+d libvorbisenc2 libvorbis0a
+d libvorbisenc2 libc6
+d libzvbi0 libzvbi-common
+d libzvbi0 libpng16-16
+d libzvbi0 libc6
+d libxvidcore4 libc6
+d libopenjp2-7 libc6
+d libmp3lame0 libc6
+d libcairo2 libxext6
+d libcairo2 libpng16-16
+d libcairo2 libc6
+d libcairo2 libpixman-1-0
+d libcairo2 libfontconfig1
+d libcairo2 libx11-6
+d libcairo2 libfreetype6
+d libcairo2 libxrender1
+d libcairo2 libxcb1
+d libcairo2 libxcb-shm0
+d libcairo2 zlib1g
+d libcairo2 libxcb-render0
+d libspeex1 libc6
+d libwebpmux3 libwebp6
+d libwebpmux3 libc6
+d libgsm1 libc6
+d libhtml-parser-perl perl
+d libhtml-parser-perl liburi-perl
+d libhtml-parser-perl libc6
+d libhtml-parser-perl perlapi-5.26.0
+d libhtml-parser-perl libhtml-tagset-perl
+d libdigest-hmac-perl perl
+d libnet-ip-perl perl
+d libcrypt-openssl-bignum-perl perl
+d libcrypt-openssl-bignum-perl libc6
+d libcrypt-openssl-bignum-perl perl-openssl-abi-1.1
+d libcrypt-openssl-bignum-perl libssl1.1
+d libcrypt-openssl-bignum-perl perlapi-5.26.1
+d libmime-types-perl perl
+d libproc-waitstat-perl perl
+d libproc-waitstat-perl libipc-signal-perl
+d libice6 x11-common
+d libice6 libbsd0
+d libice6 libc6
+d libsm6 multiarch-support
+d x11-common lsb-base
+d mono-runtime mono-runtime-sgen
+d mono-runtime libc6
+d libmono-system4.0-cil libmono-system-xml4.0-cil
+d libmono-system4.0-cil libc6
+d libmono-system4.0-cil libmono-corlib4.5-cil
+d libmono-system4.0-cil libmono-system-configuration4.0-cil
+d libmono-system4.0-cil mono-runtime
+d libmono-system4.0-cil libmono-security4.0-cil
+d librbd1 libc6
+d librbd1 libgcc1
+d librbd1 librados2
+d libiscsi7 libc6
+d libpython2.7-stdlib libexpat1
+d libpython2.7-stdlib libdb5.3
+d libpython2.7-stdlib libpython2.7-minimal
+d libpython2.7-stdlib libbz2-1.0
+d libpython2.7-stdlib libc6
+d libpython2.7-stdlib libffi6
+d libpython2.7-stdlib libncursesw5
+d libpython2.7-stdlib libsqlite3-0
+d libpython2.7-stdlib libtinfo5
+d libpython2.7-stdlib libreadline7
+d libpython2.7-stdlib mime-support
+d libpython2.7-stdlib libssl1.1
+d libntlm0 libc6
+d libmpg123-0 libc6
+d libfontconfig1 fontconfig-config
+d libfontconfig1 libexpat1
+d libfontconfig1 libfreetype6
+d libfontconfig1 libc6
+d libfreetype6 libpng16-16
+d libfreetype6 zlib1g
+d libfreetype6 libc6
+d libxfixes3 libx11-6
+d libxfixes3 libc6
+d libsoxr0 libgomp1
+d libsoxr0 libc6
+d libcroco3 libxml2
+d libcroco3 libglib2.0-0
+d libcroco3 libc6
+d libpango-1.0-0 libglib2.0-0
+d libpango-1.0-0 libc6
+d libpango-1.0-0 libthai0
+d libpango-1.0-0 fontconfig
+d libpangocairo-1.0-0 libcairo2
+d libpangocairo-1.0-0 libc6
+d libpangocairo-1.0-0 libglib2.0-0
+d libpangocairo-1.0-0 libfontconfig1
+d libpangocairo-1.0-0 libfreetype6
+d libpangocairo-1.0-0 libpango-1.0-0
+d libpangocairo-1.0-0 libpangoft2-1.0-0
+d libpangoft2-1.0-0 libc6
+d libpangoft2-1.0-0 libglib2.0-0
+d libpangoft2-1.0-0 libfontconfig1
+d libpangoft2-1.0-0 libfreetype6
+d libpangoft2-1.0-0 libpango-1.0-0
+d libpangoft2-1.0-0 libharfbuzz0b
+d libpixman-1-0 libc6
+d libxrender1 libx11-6
+d libxrender1 libc6
+d libxcb-shm0 libxcb1
+d libxcb-shm0 libc6
+d libxcb-render0 libxcb1
+d libxcb-render0 libc6
+d asterisk asterisk-core-sounds-en
+d asterisk libsystemd0
+d asterisk libxslt1.1
+d asterisk asterisk-modules
+d asterisk libc6
+d asterisk libjansson4
+d asterisk libsqlite3-0
+d asterisk libxml2
+d asterisk asterisk-config
+d asterisk libssl1.1
+d asterisk libuuid1
+d asterisk lsb-base
+d asterisk liburiparser1
+d asterisk libedit2
+d asterisk libpopt0
+d asterisk adduser
+d asterisk libcap2
+d libhtml-tagset-perl perl
+d libipc-signal-perl perl
+d mono-runtime-sgen libgcc1
+d mono-runtime-sgen mono-runtime-common
+d mono-runtime-sgen libc6
+d libmono-system-xml4.0-cil libmono-system4.0-cil
+d libmono-system-xml4.0-cil libmono-system-configuration4.0-cil
+d libmono-system-xml4.0-cil libmono-corlib4.5-cil
+d libmono-system-configuration4.0-cil libmono-system-xml4.0-cil
+d libmono-system-configuration4.0-cil libmono-corlib4.5-cil
+d libmono-system-configuration4.0-cil libmono-system-security4.0-cil
+d libmono-system-configuration4.0-cil mono-runtime
+d libmono-system-configuration4.0-cil libmono-system4.0-cil
+d fontconfig-config fonts-dejavu-core fonts-liberation ttf-bitstream-vera
+d fontconfig-config ucf
+d libgomp1 gcc-8-base
+d libgomp1 libc6
+d libthai0 libthai-data
+d libthai0 libdatrie1
+d libthai0 libc6
+d fontconfig dpkg
+d libharfbuzz0b libgraphite2-3
+d libharfbuzz0b libglib2.0-0
+d libharfbuzz0b libfreetype6
+d libharfbuzz0b libc6
+d asterisk-core-sounds-en asterisk-core-sounds-en-g722 asterisk-core-sounds-en-gsm asterisk-core-sounds-en-wav
+d asterisk-modules libsrtp2-1
+d asterisk-modules libxml2
+d asterisk-modules libpjsip2
+d asterisk-modules libldap-2.4-2
+d asterisk-modules libcurl4
+d asterisk-modules libpq5
+d asterisk-modules libsqlite0
+d asterisk-modules libvo-amrwbenc0
+d asterisk-modules libopencore-amrwb0
+d asterisk-modules libpjsip-simple2
+d asterisk-modules libasound2
+d asterisk-modules libogg0
+d asterisk-modules libpjmedia2
+d asterisk-modules libgsm1
+d asterisk-modules libsqlite3-0
+d asterisk-modules libradcli4
+d asterisk-modules libopencore-amrnb0
+d asterisk-modules libportaudio2
+d asterisk-modules libiksemel3
+d asterisk-modules libodbc1
+d asterisk-modules libpjlib-util2
+d asterisk-modules libpjsip-ua2
+d asterisk-modules libvorbisfile3
+d asterisk-modules libpjnath2
+d asterisk-modules libvorbis0a
+d asterisk-modules libical3
+d asterisk-modules libglib2.0-0
+d asterisk-modules libvorbisenc2
+d asterisk-modules libsybdb5
+d asterisk-modules libpj2
+d asterisk-modules libresample1
+d asterisk-modules zlib1g
+d asterisk-modules libjack-0.125 libjack-jackd2-0
+d asterisk-modules libspeexdsp1
+d asterisk-modules libc6
+d asterisk-modules libspeex1
+d asterisk-modules libgmime-3.0-0
+d asterisk-modules libneon27-gnutls
+d asterisk-modules libspandsp2
+d asterisk-modules libssl1.1
+d asterisk-modules liblua5.1-0
+d libjansson4 libc6
+d liburiparser1 libc6
+d mono-runtime-common mono-gac
+d mono-runtime-common binutils
+d mono-runtime-common zlib1g
+d mono-runtime-common libc6
+d libmono-system-security4.0-cil libmono-system-xml4.0-cil
+d libmono-system-security4.0-cil libmono-corlib4.5-cil
+d libmono-system-security4.0-cil libmono-system4.0-cil
+d libmono-system-security4.0-cil libmono-security4.0-cil
+d libdatrie1 libc6
+d libgraphite2-3 libc6
+d libsrtp2-1 libc6
+d libpjsip2 libpj2
+d libpjsip2 libpjlib-util2
+d libpjsip2 libc6
+d libsqlite0 libc6
+d libpjsip-simple2 libpj2
+d libpjsip-simple2 libpjsip2
+d libpjsip-simple2 libpjlib-util2
+d libpjsip-simple2 libc6
+d libasound2 libasound2-data
+d libasound2 libc6
+d libpjmedia2 libavformat57
+d libpjmedia2 libpjnath2
+d libpjmedia2 libspeexdsp1
+d libpjmedia2 libswscale4
+d libpjmedia2 libc6
+d libpjmedia2 libsrtp2-1
+d libpjmedia2 libavutil55
+d libpjmedia2 libpj2
+d libpjmedia2 libssl1.1
+d libpjmedia2 libpjlib-util2
+d libradcli4 libnettle6
+d libradcli4 libgnutls30
+d libradcli4 libc6
+d libportaudio2 libasound2
+d libportaudio2 libjack-0.125 libjack-jackd2-0
+d libportaudio2 libc6
+d libiksemel3 libgnutls30
+d libiksemel3 libc6
+d libodbc1 libltdl7
+d libodbc1 libc6
+d libpjlib-util2 libpj2
+d libpjlib-util2 libc6
+d libpjsip-ua2 libpjmedia2
+d libpjsip-ua2 libc6
+d libpjsip-ua2 libpjsip2
+d libpjsip-ua2 libpj2
+d libpjsip-ua2 libpjsip-simple2
+d libpjsip-ua2 libpjlib-util2
+d libpjnath2 libpj2
+d libpjnath2 libpjlib-util2
+d libpjnath2 libc6
+d libical3 libdb5.3
+d libical3 libc6
+d libical3 libglib2.0-0
+d libical3 libgcc1
+d libical3 tzdata
+d libical3 libicu60
+d libsybdb5 libgmp10
+d libsybdb5 libc6
+d libsybdb5 libnettle6
+d libsybdb5 libgnutls30
+d libsybdb5 libgssapi-krb5-2
+d libsybdb5 libhogweed4
+d libsybdb5 freetds-common
+d libpj2 libssl1.1
+d libpj2 libuuid1
+d libpj2 libc6
+d libresample1 libc6
+d libjack-jackd2-0 libsamplerate0
+d libjack-jackd2-0 libgcc1
+d libjack-jackd2-0 libc6
+d libspeexdsp1 libc6
+d libgmime-3.0-0 libglib2.0-0
+d libgmime-3.0-0 zlib1g
+d libgmime-3.0-0 libgpgme11
+d libgmime-3.0-0 libc6
+d libneon27-gnutls libc6
+d libneon27-gnutls libxml2
+d libneon27-gnutls libgnutls30
+d libneon27-gnutls libgssapi-krb5-2
+d libneon27-gnutls zlib1g
+d libspandsp2 libtiff5
+d libspandsp2 libc6
+d liblua5.1-0 libc6
+d binutils libc6
+d binutils binutils-common
+d binutils binutils-x86-64-linux-gnu
+d binutils libbinutils
+d binutils zlib1g
+d libsamplerate0 libc6
+d libjack0 libdb5.3
+d libjack0 libc6
+d jackd2 libasound2
+d jackd2 libexpat1
+d jackd2 debconf debconf-2.0
+d jackd2 libc6
+d jackd2 python-dbus
+d jackd2 libgcc1
+d jackd2 libdbus-1-3
+d jackd2 libjack-jackd2-0
+d jackd2 libreadline7
+d jackd2 libsamplerate0
+d jackd2 libsndfile1
+d jackd2 coreutils
+d binutils-x86-64-linux-gnu binutils-common
+d binutils-x86-64-linux-gnu libbinutils
+d binutils-x86-64-linux-gnu zlib1g
+d binutils-x86-64-linux-gnu libc6
+d libbinutils binutils-common
+d libbinutils zlib1g
+d libbinutils libc6
+d binutils-multiarch binutils-common
+d binutils-multiarch binutils
+d binutils-multiarch zlib1g
+d binutils-multiarch libc6
+d binutils-mingw-w64-x86-64 binutils-common
+d binutils-mingw-w64-x86-64 zlib1g
+d binutils-mingw-w64-x86-64 libc6
+d binutils-mingw-w64-i686 binutils-common
+d binutils-mingw-w64-i686 zlib1g
+d binutils-mingw-w64-i686 libc6
+d jackd1 libasound2
+d jackd1 libjack-0.125 libjack-jackd2-0
+d jackd1 libzita-alsa-pcmi0
+d jackd1 libjack0
+d jackd1 debconf debconf-2.0
+d jackd1 libc6
+d jackd1 libgcc1
+d jackd1 libreadline7
+d jackd1 libsamplerate0
+d jackd1 libsndfile1
+d jackd1 libzita-resampler1
+d jackd1 coreutils
+d python-dbus libc6
+d python-dbus libglib2.0-0
+d python-dbus libdbus-1-3
+d python-dbus python
+d jackd jackd1 jackd2
+d libzita-alsa-pcmi0 libasound2
+d libzita-alsa-pcmi0 libc6
+d libzita-resampler1 libgcc1
+d libzita-resampler1 libc6
+d python python-minimal
+d python-minimal python2.7-minimal
+d python-minimal dpkg
+d python2.7-minimal zlib1g
+d python2.7-minimal libc6
+c apport core-dump-handler
+c bash bash-completion
+c busybox-static busybox
+c console-setup console-setup-mini
+c cpio mt-st
+c cryptsetup cryptsetup-luks
+c debconf dialog
+c debconf whiptail
+c debconf apt
+c debconf cdebconf
+c debconf debconf-utils
+c debconf menu
+c debconf-i18n debconf-utils
+c grep rgrep
+c initramfs-tools linux-initramfs-tool
+c iproute2 arpd
+c kbd console-utilities
+c libsmbios-c2 libsmbios2
+c libsmbios-c2 libsmbios2v5
+c login backupninja
+c login gnunet
+c login amavisd-new
+c man-db man
+c netplan.io netplan
+c perl libjson-pp-perl
+c perl-base mono-gac
+c perl-base safe-rm
+c perl-base update-inetd
+c perl-base doc-base
+c plymouth console-common
+c python3.7-minimal binfmt-support
+c readline-common libreadline5
+c rsyslog linux-kernel-log-daemon
+c rsyslog system-log-daemon
+c snapd snap
+c sudo sudo-ldap
+c tar cpio
+c xz-utils lzma
+c busybox busybox-static
+c console-setup-mini console-setup
+c libattr1 attr
+c libacl1 acl
+c libpopt0 libpopt-dev
+c libpopt0 rpm
+c libcurl4 libcurl3
+c debconf-utils debconf
+c libldap-2.4-2 ldap-utils
+c libfuse2 fuse
+c libpcre3 libpcre3-dev
+c libpam-modules libpam-mkhomedir
+c libpam-modules libpam-motd
+c libpam-modules libpam-umask
+c amavisd-new amavis
+c amavisd-new logcheck
+c netplan plan
+c libpci3 libpci2
+c python3.6-minimal binfmt-support
+c sudo-ldap sudo
+c attr xfsdump
+c libcurl3 libcurl4
+c ldap-utils ldap-client
+c ldap-utils openldap-utils
+c libmailtools-perl mailtools
+c libpython3.7-minimal binfmt-support
+c libpython3.7-minimal libpython3.7-stdlib
+c genisoimage mkisofs
+c xfsdump xfsprogs
+c libpcrecpp0v5 libpcre3
+c guile-2.0-libs guile-2.0-slib
+c mysql-common mysql-common-5.6
+c libgstreamer-plugins-base1.0-0 libgstreamer-plugins-bad1.0-0
+c libavcodec-extra57 libavcodec57
+c libpython3.6-minimal binfmt-support
+c linux-libc-dev linux-kernel-headers
+c libspeex1 asterisk
+c libpython2.7-minimal binfmt-support
+c fontconfig-config fontconfig
+c asterisk-core-sounds-en asterisk-core-sounds-en-gsm
+c mono-runtime-common mono-runtime
+c libjack-jackd2-0 libjack-0.116
+c libjack-jackd2-0 libjack-0.125
+c libjack-jackd2-0 libjack0
+c libjack-jackd2-0 jackd2
+c binutils binutils-multiarch
+c binutils binutils-mingw-w64-x86-64
+c binutils binutils-mingw-w64-i686
+c libjack0 libjack-0.116
+c libjack0 jackd1
+c libjack0 libjack-0.125
+c jackd2 jackd
+c jackd2 jack-daemon
+c jackd1 jack-daemon
+c python2.7-minimal binfmt-support

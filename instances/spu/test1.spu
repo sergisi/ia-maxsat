@@ -1,0 +1,203 @@
+p spu 57
+n gcc
+n python3
+n cpp
+n gcc-7
+n gcc-doc
+n python3-minimal
+n cpp-7
+n cpp-doc
+n zlib1g
+n libgcc1
+n libcc1-0
+n libc6
+n binutils
+n libmpfr6
+n libmpc3
+n libisl19
+n libgcc-7-dev
+n libgmp10
+n gcc-7-base
+n gcc-7-doc
+n python3.6-minimal
+n cpp-7-doc
+n gcc-8-base
+n libbinutils
+n binutils-common
+n binutils-x86-64-linux-gnu
+n binutils-mingw-w64-i686
+n binutils-multiarch
+n binutils-mingw-w64-x86-64
+n libgomp1
+n libatomic1
+n libcilkrts5
+n libtsan0
+n libubsan0
+n libitm1
+n liblsan0
+n libasan4
+n libmpx2
+n libquadmath0
+n dpkg
+n install-info
+n binfmt-support
+n libbz2-1.0
+n libselinux1
+n liblzma5
+n libzstd1
+n lsb-base
+n libpipeline1
+n libpcre3
+n libpcre3-dev
+n libpcre32-3
+n libpcre16-3
+n libpcrecpp0v5
+n libc6-dev
+n linux-libc-dev
+n libc-dev-bin
+n linux-kernel-headers
+d gcc cpp
+d gcc gcc-7
+d python3 python3-minimal
+d cpp cpp-7
+d gcc-7 zlib1g
+d gcc-7 libgcc1
+d gcc-7 libcc1-0
+d gcc-7 libc6
+d gcc-7 binutils
+d gcc-7 libmpfr6
+d gcc-7 libmpc3
+d gcc-7 libisl19
+d gcc-7 libgcc-7-dev
+d gcc-7 cpp-7
+d gcc-7 libgmp10
+d gcc-7 gcc-7-base
+d gcc-doc gcc-7-doc
+d python3-minimal python3.6-minimal
+d cpp-7 zlib1g
+d cpp-7 gcc-7-base
+d cpp-7 libc6
+d cpp-7 libmpfr6
+d cpp-7 libmpc3
+d cpp-7 libisl19
+d cpp-7 libgmp10
+d cpp-doc cpp-7-doc
+d zlib1g libc6
+d libgcc1 libc6
+d libgcc1 gcc-8-base
+d libcc1-0 libc6
+d libcc1-0 libgcc1
+d libcc1-0 gcc-8-base
+d libc6 libgcc1
+d binutils libc6
+d binutils zlib1g
+d binutils libbinutils
+d binutils binutils-common
+d binutils binutils-x86-64-linux-gnu
+d libmpfr6 libc6
+d libmpfr6 libgmp10
+d libmpc3 libc6
+d libmpc3 libmpfr6
+d libmpc3 libgmp10
+d libisl19 libc6
+d libisl19 libgmp10
+d libgcc-7-dev libgcc1
+d libgcc-7-dev gcc-7-base
+d libgcc-7-dev libgomp1
+d libgcc-7-dev libatomic1
+d libgcc-7-dev libcilkrts5
+d libgcc-7-dev libtsan0
+d libgcc-7-dev libubsan0
+d libgcc-7-dev libitm1
+d libgcc-7-dev liblsan0
+d libgcc-7-dev libasan4
+d libgcc-7-dev libmpx2
+d libgcc-7-dev libquadmath0
+d libgmp10 libc6
+d gcc-7-doc dpkg install-info
+d gcc-7-doc gcc-7-base
+d python3.6-minimal libc6
+d cpp-7-doc dpkg install-info
+d cpp-7-doc gcc-7-base
+d libbinutils libc6
+d libbinutils zlib1g
+d libbinutils binutils-common
+d binutils-x86-64-linux-gnu libc6
+d binutils-x86-64-linux-gnu zlib1g
+d binutils-x86-64-linux-gnu libbinutils
+d binutils-x86-64-linux-gnu binutils-common
+d binutils-mingw-w64-i686 libc6
+d binutils-mingw-w64-i686 zlib1g
+d binutils-mingw-w64-i686 binutils-common
+d binutils-multiarch libc6
+d binutils-multiarch zlib1g
+d binutils-multiarch binutils-common
+d binutils-multiarch binutils
+d binutils-mingw-w64-x86-64 libc6
+d binutils-mingw-w64-x86-64 zlib1g
+d binutils-mingw-w64-x86-64 binutils-common
+d libgomp1 libc6
+d libgomp1 gcc-8-base
+d libatomic1 libc6
+d libatomic1 gcc-8-base
+d libcilkrts5 libc6
+d libcilkrts5 libgcc1
+d libcilkrts5 gcc-7-base
+d libtsan0 libc6
+d libtsan0 libgcc1
+d libtsan0 gcc-8-base
+d libubsan0 libc6
+d libubsan0 libgcc1
+d libubsan0 gcc-7-base
+d libitm1 libc6
+d libitm1 gcc-8-base
+d liblsan0 libc6
+d liblsan0 libgcc1
+d liblsan0 gcc-8-base
+d libasan4 libc6
+d libasan4 libgcc1
+d libasan4 gcc-7-base
+d libmpx2 libc6
+d libmpx2 gcc-8-base
+d libquadmath0 libc6
+d libquadmath0 gcc-8-base
+d dpkg zlib1g
+d dpkg libbz2-1.0
+d dpkg libc6
+d dpkg libselinux1
+d dpkg liblzma5
+d dpkg libzstd1
+d install-info dpkg
+d binfmt-support libc6
+d binfmt-support lsb-base
+d binfmt-support libpipeline1
+d libbz2-1.0 libc6
+d libselinux1 libc6
+d libselinux1 libpcre3
+d liblzma5 libc6
+d libzstd1 libc6
+d libpipeline1 libc6
+d libpcre3 libc6
+d libpcre3-dev libpcre32-3
+d libpcre3-dev libpcre16-3
+d libpcre3-dev libpcrecpp0v5
+d libpcre3-dev libc6-dev
+d libpcre3-dev libpcre3
+d libpcre32-3 libc6
+d libpcre16-3 libc6
+d libpcrecpp0v5 libc6
+d libpcrecpp0v5 libgcc1
+d libpcrecpp0v5 libpcre3
+d libc6-dev libc6
+d libc6-dev linux-libc-dev
+d libc6-dev libc-dev-bin
+d libc-dev-bin libc6
+c gcc gcc-doc
+c cpp cpp-doc
+c binutils binutils-mingw-w64-i686
+c binutils binutils-multiarch
+c binutils binutils-mingw-w64-x86-64
+c python3.6-minimal binfmt-support
+c libpcre3 libpcre3-dev
+c libpcrecpp0v5 libpcre3
+c linux-libc-dev linux-kernel-headers

@@ -18,8 +18,8 @@ import wcnf
 
 
 class Spu(object):
-    """This class represents a list of packages to be installed. The packages are
-    labeled by their name.
+    """This class represents a list of packages to be installed. 
+    The packages are labeled by their name.
     """
 
     def __init__(self, file_path=""):
@@ -43,9 +43,7 @@ class Spu(object):
 
         :param stream: A data stream from which read the graph definition.
         """
-        n_edges = -1
-        edges = set()
-
+        self.pkg_toinstall = []
         reader = (l for l in (ll.strip() for ll in stream) if l)
         for line in reader:
             l = line.split()
@@ -55,13 +53,13 @@ class Spu(object):
                 self.pkg_toinstall.append(l[1])
             elif l[0] == 'd':
                 self.dependencies.append((l[1], l[2:]))
-            else:  # c conflics
-                edges.conflicts.append((l[1], l[2]))
-
+            else:  # c conflicts
+                self.conflicts.append((l[1], l[2]))
+        self.pkg_toinstall = set(self.pkg_toinstall)
         if self.n_pkg != len(self.pkg_toinstall):
             print("Warning incorrect number of packages")
 
-    # TODO: @sergi this upwards needs to be done.
+
     def visualize(self, name="graph"):
         """Visualize dependencies and unrelated using 'graphviz' library.
 
@@ -84,13 +82,13 @@ class Spu(object):
         # Create graph
         dot = Graph()
         # Create nodes
-        for n in self.packages:
+        for n in self.pkg_toinstall:
             dot.node(n)
         # Create edges
         for n1, n2 in self.dependencies:
             dot.edge(str(n1), str(n2))
         for n1, n2 in self.conflicts:
-            dot.edge(n1, n2)
+            dot.edge(n1, n2, color='Red')
         # Visualize
         dot.render(name, view=True, cleanup=True)
 
@@ -98,15 +96,29 @@ class Spu(object):
     def package_dependencies(self, solver):
         """ Computes the packages that cannot be installed.
         :param solver : An instance of MaxSatRunner.
-        :return: A solution of packages not needed to install. The 
-            format is: 
+        :return: A solution of packages not needed to install. The
+            format is:
                 o <n>
                 v [pkg, ...]
             where n is the number of packages not installed and pkg is the
             package not installed
         """
-        pass
-
+        formula = wcnf.WCNFFormula()
+        generated = collections.defaultdict(formula.new_var)
+        list(map(lambda pkg: formula.add_clause([generated[pkg]], weight=1),
+            self.pkg_toinstall))
+        list(map(lambda pkgs: formula.add_clause([-generated[pkgs[0]],
+            *[generated[x] for x in pkgs[1]]], weight=wcnf.TOP_WEIGHT),
+            self.dependencies))
+        list(map(lambda pkgs: formula.add_clause([-generated[x] for x in pkgs],
+            weight=wcnf.TOP_WEIGHT), self.conflicts))
+        opt, model = solver.solve(formula)
+        inv_map = {v: k for k, v in generated.items()}
+        res = list(map(lambda x : inv_map[x], filter(lambda x: x>0, model)))
+        res.sort()
+        pkgs = ' '.join(res)
+        print(pkgs)
+        return '\to ' + str(opt) +'\n\tv ' + pkgs
 
 # Program main
 ###############################################################################
@@ -121,7 +133,7 @@ def main(argv=None):
         spu.visualize(os.path.basename(args.spu))
 
     pkg_dependencie = spu.package_dependencies(solver)
-    print("PKG_DEPENDENCIES:\n", " ".join(min_vertex_cover))
+    print("PKG_DEPENDENCIES:\n", pkg_dependencie)
 
 
 

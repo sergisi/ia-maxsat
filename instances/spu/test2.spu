@@ -1,0 +1,750 @@
+p spu 205
+n build-essential
+n zlib1g-dev
+n libssl-dev
+n libreadline6-dev
+n libyaml-dev
+n ruby
+n ruby-all-dev
+n ruby-dev
+n dpkg-dev
+n make
+n libc-dev
+n libc6-dev
+n gcc
+n zlib1g
+n libssl1.1
+n libssl1.0-dev
+n libyaml-0-2
+n ruby2.5
+n ruby2.5-dev
+n xz-utils
+n libdpkg-perl
+n binutils
+n tar
+n bzip2
+n patch
+n libc6
+n make-guile
+n linux-libc-dev
+n libc-dev-bin
+n gcc-7
+n cpp
+n gcc-doc
+n debconf
+n debconf-2.0
+n libssl1.0.0
+n libruby2.5
+n rubygems-integration
+n libgmp-dev
+n liblzma5
+n lzma
+n perl
+n dpkg
+n binutils-common
+n libbinutils
+n binutils-x86-64-linux-gnu
+n binutils-mingw-w64-i686
+n binutils-multiarch
+n binutils-mingw-w64-x86-64
+n libacl1
+n libselinux1
+n cpio
+n libbz2-1.0
+n libgcc1
+n guile-2.0-libs
+n linux-kernel-headers
+n libisl19
+n gcc-7-base
+n libgmp10
+n libgcc-7-dev
+n libmpc3
+n cpp-7
+n libcc1-0
+n libmpfr6
+n cpp-doc
+n gcc-7-doc
+n perl-base
+n whiptail
+n debconf-utils
+n menu
+n cdebconf
+n dialog
+n apt
+n ruby-net-telnet
+n ruby-test-unit
+n libffi6
+n ruby-minitest
+n libgdbm5
+n ruby-did-you-mean
+n libgdbm-compat4
+n libreadline7
+n rake
+n ca-certificates
+n libgmpxx4ldbl
+n libgmp10-dev
+n libjson-pp-perl
+n libzstd1
+n libattr1
+n acl
+n libpcre3
+n mt-st
+n gcc-8-base
+n libltdl7
+n libunistring2
+n libgc1c2
+n guile-2.0-slib
+n libmpx2
+n liblsan0
+n libasan4
+n libcilkrts5
+n libitm1
+n libubsan0
+n libgomp1
+n libtsan0
+n libquadmath0
+n libatomic1
+n cpp-7-doc
+n install-info
+n mono-gac
+n doc-base
+n update-inetd
+n safe-rm
+n libslang2
+n libnewt0.52
+n libpopt0
+n libdebian-installer4
+n libtextwrap1
+n debianutils
+n libncursesw5
+n libtinfo5
+n gpgv
+n gpgv1
+n gpgv2
+n libgnutls30
+n libapt-pkg5.0
+n libseccomp2
+n adduser
+n ubuntu-keyring
+n ruby-power-assert
+n readline-common
+n openssl
+n attr
+n libpcre3-dev
+n mono-4.0-gac
+n libyaml-tiny-perl
+n libuuid-perl
+n libfile-copy-recursive-perl
+n libfile-temp-perl
+n rpm
+n libpopt-dev
+n libgpg-error0
+n libgcrypt20
+n libhogweed4
+n libtasn1-6
+n libidn2-0
+n libp11-kit0
+n libnettle6
+n libudev1
+n liblz4-1
+n libsystemd0
+n passwd
+n libreadline5
+n xfsdump
+n libpcrecpp0v5
+n libpcre16-3
+n libpcre32-3
+n libmono-security4.0-cil
+n libmono-corlib4.5-cil
+n libuuid1
+n perlapi-5.26.0
+n debugedit
+n librpmsign8
+n librpmio8
+n rpm2cpio
+n rpm-common
+n librpm8
+n libelf1
+n librpmbuild8
+n libaudit1
+n libpam-modules
+n libsemanage1
+n libpam0g
+n xfsprogs
+n libncurses5
+n libmono-system4.0-cil
+n tzdata
+n mono-runtime
+n libdw1
+n liblua5.2-0
+n libnss3
+n libarchive13
+n libdbus-1-3
+n libdb5.3
+n libcap2
+n libmagic1
+n libcap-ng0
+n libaudit-common
+n libpam-modules-bin
+n libpam-mkhomedir
+n libpam-umask
+n libpam-motd
+n libsepol1
+n libsemanage-common
+n libblkid1
+n libmono-system-xml4.0-cil
+n libmono-system-configuration4.0-cil
+n mono-runtime-sgen
+n libsqlite3-0
+n libnspr4
+n libxml2
+n liblzo2-2
+n libmagic-mgc
+n libmono-system-security4.0-cil
+n mono-runtime-common
+n libicu60
+n multiarch-support
+d build-essential dpkg-dev
+d build-essential make
+d build-essential libc-dev libc6-dev
+d build-essential gcc
+d zlib1g-dev zlib1g
+d zlib1g-dev libc-dev libc6-dev
+d libssl-dev libssl1.1
+d libyaml-dev libyaml-0-2
+d ruby ruby2.5
+d ruby-all-dev ruby2.5-dev
+d ruby-dev ruby2.5-dev
+d dpkg-dev xz-utils
+d dpkg-dev libdpkg-perl
+d dpkg-dev make
+d dpkg-dev binutils
+d dpkg-dev tar
+d dpkg-dev bzip2
+d dpkg-dev patch
+d make libc6
+d libc6-dev linux-libc-dev
+d libc6-dev libc-dev-bin
+d libc6-dev libc6
+d gcc gcc-7
+d gcc cpp
+d zlib1g libc6
+d libssl1.1 debconf debconf-2.0
+d libssl1.1 libc6
+d libssl1.0-dev libssl1.0.0
+d libyaml-0-2 libc6
+d ruby2.5 libruby2.5
+d ruby2.5 rubygems-integration
+d ruby2.5 libc6
+d ruby2.5-dev libgmp-dev
+d ruby2.5-dev libruby2.5
+d xz-utils liblzma5
+d xz-utils libc6
+d libdpkg-perl perl
+d libdpkg-perl dpkg
+d binutils binutils-common
+d binutils libbinutils
+d binutils binutils-x86-64-linux-gnu
+d binutils zlib1g
+d binutils libc6
+d tar libacl1
+d tar libselinux1
+d tar libc6
+d bzip2 libbz2-1.0
+d bzip2 libc6
+d patch libc6
+d libc6 libgcc1
+d make-guile guile-2.0-libs
+d make-guile libc6
+d libc-dev-bin libc6
+d gcc-7 libisl19
+d gcc-7 gcc-7-base
+d gcc-7 libgmp10
+d gcc-7 libgcc-7-dev
+d gcc-7 libgcc1
+d gcc-7 libmpc3
+d gcc-7 zlib1g
+d gcc-7 cpp-7
+d gcc-7 libcc1-0
+d gcc-7 libmpfr6
+d gcc-7 binutils
+d gcc-7 libc6
+d cpp cpp-7
+d gcc-doc gcc-7-doc
+d debconf perl-base
+d libssl1.0.0 debconf debconf-2.0
+d libssl1.0.0 libc6
+d libruby2.5 libssl1.1
+d libruby2.5 libgmp10
+d libruby2.5 ruby-net-telnet
+d libruby2.5 ruby-test-unit
+d libruby2.5 libffi6
+d libruby2.5 ruby-minitest
+d libruby2.5 libgdbm5
+d libruby2.5 ruby-did-you-mean
+d libruby2.5 libgdbm-compat4
+d libruby2.5 libreadline7
+d libruby2.5 zlib1g
+d libruby2.5 libyaml-0-2
+d libruby2.5 rake
+d libruby2.5 libc6
+d rubygems-integration ca-certificates
+d libgmp-dev libgmpxx4ldbl
+d libgmp-dev libgmp10
+d liblzma5 libc6
+d lzma libgcc1
+d lzma libc6
+d perl dpkg
+d dpkg liblzma5
+d dpkg libselinux1
+d dpkg zlib1g
+d dpkg libc6
+d dpkg libbz2-1.0
+d dpkg libzstd1
+d libbinutils binutils-common
+d libbinutils zlib1g
+d libbinutils libc6
+d binutils-x86-64-linux-gnu binutils-common
+d binutils-x86-64-linux-gnu libbinutils
+d binutils-x86-64-linux-gnu zlib1g
+d binutils-x86-64-linux-gnu libc6
+d binutils-mingw-w64-i686 binutils-common
+d binutils-mingw-w64-i686 zlib1g
+d binutils-mingw-w64-i686 libc6
+d binutils-multiarch binutils-common
+d binutils-multiarch zlib1g
+d binutils-multiarch binutils
+d binutils-multiarch libc6
+d binutils-mingw-w64-x86-64 binutils-common
+d binutils-mingw-w64-x86-64 zlib1g
+d binutils-mingw-w64-x86-64 libc6
+d libacl1 libattr1
+d libacl1 libc6
+d libselinux1 libpcre3
+d libselinux1 libc6
+d cpio libc6
+d libbz2-1.0 libc6
+d libgcc1 gcc-8-base
+d libgcc1 libc6
+d guile-2.0-libs libgmp10
+d guile-2.0-libs libffi6
+d guile-2.0-libs libltdl7
+d guile-2.0-libs libreadline7
+d guile-2.0-libs libunistring2
+d guile-2.0-libs libgc1c2
+d guile-2.0-libs libc6
+d libisl19 libgmp10
+d libisl19 libc6
+d libgmp10 libc6
+d libgcc-7-dev gcc-7-base
+d libgcc-7-dev libmpx2
+d libgcc-7-dev liblsan0
+d libgcc-7-dev libasan4
+d libgcc-7-dev libcilkrts5
+d libgcc-7-dev libitm1
+d libgcc-7-dev libubsan0
+d libgcc-7-dev libgomp1
+d libgcc-7-dev libtsan0
+d libgcc-7-dev libquadmath0
+d libgcc-7-dev libatomic1
+d libgcc-7-dev libgcc1
+d libmpc3 libgmp10
+d libmpc3 libmpfr6
+d libmpc3 libc6
+d cpp-7 libisl19
+d cpp-7 gcc-7-base
+d cpp-7 libgmp10
+d cpp-7 libmpc3
+d cpp-7 zlib1g
+d cpp-7 libmpfr6
+d cpp-7 libc6
+d libcc1-0 gcc-8-base
+d libcc1-0 libgcc1
+d libcc1-0 libc6
+d libmpfr6 libgmp10
+d libmpfr6 libc6
+d cpp-doc cpp-7-doc
+d gcc-7-doc gcc-7-base
+d gcc-7-doc dpkg install-info
+d perl-base dpkg
+d perl-base libc6
+d whiptail libslang2
+d whiptail libnewt0.52
+d whiptail libpopt0
+d whiptail libc6
+d debconf-utils debconf
+d menu libgcc1
+d menu libc6
+d cdebconf debconf
+d cdebconf libselinux1
+d cdebconf dpkg
+d cdebconf libslang2
+d cdebconf libdebian-installer4
+d cdebconf libtextwrap1
+d cdebconf libnewt0.52
+d cdebconf libc6
+d dialog debianutils
+d dialog libncursesw5
+d dialog libtinfo5
+d dialog libc6
+d apt gpgv gpgv1 gpgv2
+d apt libgnutls30
+d apt libapt-pkg5.0
+d apt libseccomp2
+d apt adduser
+d apt libgcc1
+d apt ubuntu-keyring
+d apt libc6
+d ruby-test-unit ruby
+d ruby-test-unit ruby-power-assert
+d libffi6 libc6
+d libgdbm5 libc6
+d libgdbm-compat4 libgdbm5
+d libgdbm-compat4 libc6
+d libreadline7 readline-common
+d libreadline7 libtinfo5
+d libreadline7 libc6
+d rake ruby
+d ca-certificates debconf debconf-2.0
+d ca-certificates openssl
+d libgmpxx4ldbl libgcc1
+d libgmpxx4ldbl libgmp10
+d libgmpxx4ldbl libc6
+d libjson-pp-perl perl
+d libzstd1 libc6
+d libattr1 libc6
+d acl libacl1
+d acl libc6
+d libpcre3 libc6
+d mt-st libc6
+d libltdl7 libc6
+d libunistring2 libc6
+d libgc1c2 libc6
+d libmpx2 gcc-8-base
+d libmpx2 libc6
+d liblsan0 gcc-8-base
+d liblsan0 libgcc1
+d liblsan0 libc6
+d libasan4 gcc-7-base
+d libasan4 libgcc1
+d libasan4 libc6
+d libcilkrts5 gcc-7-base
+d libcilkrts5 libgcc1
+d libcilkrts5 libc6
+d libitm1 gcc-8-base
+d libitm1 libc6
+d libubsan0 gcc-7-base
+d libubsan0 libgcc1
+d libubsan0 libc6
+d libgomp1 gcc-8-base
+d libgomp1 libc6
+d libtsan0 gcc-8-base
+d libtsan0 libgcc1
+d libtsan0 libc6
+d libquadmath0 gcc-8-base
+d libquadmath0 libc6
+d libatomic1 gcc-8-base
+d libatomic1 libc6
+d cpp-7-doc gcc-7-base
+d cpp-7-doc dpkg install-info
+d install-info dpkg
+d mono-gac mono-4.0-gac
+d doc-base libyaml-tiny-perl
+d doc-base libuuid-perl
+d update-inetd libfile-copy-recursive-perl
+d update-inetd libfile-temp-perl
+d update-inetd debconf debconf-2.0
+d safe-rm debconf
+d libslang2 libc6
+d libnewt0.52 libslang2
+d libnewt0.52 libc6
+d libpopt0 libc6
+d libdebian-installer4 libc6
+d libtextwrap1 libc6
+d debianutils libc6
+d libncursesw5 libc6
+d libncursesw5 libtinfo5
+d libtinfo5 libc6
+d gpgv libgpg-error0
+d gpgv libgcrypt20
+d gpgv zlib1g
+d gpgv libbz2-1.0
+d gpgv libc6
+d gpgv1 libbz2-1.0
+d gpgv1 zlib1g
+d gpgv1 libc6
+d gpgv2 gpgv
+d libgnutls30 libgmp10
+d libgnutls30 libhogweed4
+d libgnutls30 libtasn1-6
+d libgnutls30 libidn2-0
+d libgnutls30 libunistring2
+d libgnutls30 zlib1g
+d libgnutls30 libp11-kit0
+d libgnutls30 libc6
+d libgnutls30 libnettle6
+d libapt-pkg5.0 liblzma5
+d libapt-pkg5.0 libzstd1
+d libapt-pkg5.0 libudev1
+d libapt-pkg5.0 zlib1g
+d libapt-pkg5.0 liblz4-1
+d libapt-pkg5.0 libc6
+d libapt-pkg5.0 libbz2-1.0
+d libapt-pkg5.0 libsystemd0
+d libapt-pkg5.0 libgcc1
+d libseccomp2 libc6
+d adduser debconf debconf-2.0
+d adduser passwd
+d readline-common dpkg install-info
+d openssl libssl1.1
+d openssl libc6
+d attr libattr1
+d attr libc6
+d libpcre3-dev libpcre3
+d libpcre3-dev libpcrecpp0v5
+d libpcre3-dev libc6-dev
+d libpcre3-dev libpcre16-3
+d libpcre3-dev libpcre32-3
+d mono-4.0-gac libmono-security4.0-cil
+d mono-4.0-gac libmono-corlib4.5-cil
+d mono-4.0-gac libc6
+d libyaml-tiny-perl perl
+d libuuid-perl libuuid1
+d libuuid-perl perlapi-5.26.0
+d libuuid-perl perl-base
+d libuuid-perl libc6
+d libfile-copy-recursive-perl perl
+d rpm debugedit
+d rpm librpmsign8
+d rpm librpmio8
+d rpm libpopt0
+d rpm rpm2cpio
+d rpm rpm-common
+d rpm librpm8
+d rpm libelf1
+d rpm librpmbuild8
+d rpm libc6
+d libpopt-dev libc-dev libc6-dev
+d libpopt-dev libpopt0
+d libgpg-error0 libc6
+d libgcrypt20 libgpg-error0
+d libgcrypt20 libc6
+d libhogweed4 libgmp10
+d libhogweed4 libnettle6
+d libhogweed4 libc6
+d libtasn1-6 libc6
+d libidn2-0 libunistring2
+d libidn2-0 libc6
+d libp11-kit0 libffi6
+d libp11-kit0 libc6
+d libnettle6 libc6
+d libudev1 libc6
+d liblz4-1 libc6
+d libsystemd0 liblzma5
+d libsystemd0 libgcrypt20
+d libsystemd0 liblz4-1
+d libsystemd0 libc6
+d passwd libselinux1
+d passwd libaudit1
+d passwd libpam-modules
+d passwd libsemanage1
+d passwd libpam0g
+d passwd libc6
+d libreadline5 readline-common
+d libreadline5 libtinfo5
+d libreadline5 libc6
+d xfsdump libuuid1
+d xfsdump libattr1
+d xfsdump xfsprogs
+d xfsdump libncurses5
+d xfsdump libc6
+d xfsdump libtinfo5
+d libpcrecpp0v5 libpcre3
+d libpcrecpp0v5 libgcc1
+d libpcrecpp0v5 libc6
+d libpcre16-3 libc6
+d libpcre32-3 libc6
+d libmono-security4.0-cil libmono-system4.0-cil
+d libmono-security4.0-cil libmono-corlib4.5-cil
+d libmono-corlib4.5-cil tzdata
+d libmono-corlib4.5-cil mono-runtime
+d libuuid1 libc6
+d debugedit librpmio8
+d debugedit libpopt0
+d debugedit libdw1
+d debugedit libelf1
+d debugedit libc6
+d librpmsign8 librpmio8
+d librpmsign8 librpm8
+d librpmsign8 libpopt0
+d librpmsign8 libc6
+d librpmio8 liblzma5
+d librpmio8 libzstd1
+d librpmio8 liblua5.2-0
+d librpmio8 libpopt0
+d librpmio8 libnss3
+d librpmio8 zlib1g
+d librpmio8 libelf1
+d librpmio8 libbz2-1.0
+d librpmio8 libc6
+d rpm2cpio librpmio8
+d rpm2cpio rpm-common
+d rpm2cpio librpm8
+d rpm2cpio libarchive13
+d rpm2cpio libc6
+d rpm-common libselinux1
+d rpm-common librpmio8
+d rpm-common librpm8
+d rpm-common libdbus-1-3
+d rpm-common libc6
+d librpm8 libdb5.3
+d librpm8 librpmio8
+d librpm8 liblua5.2-0
+d librpm8 libpopt0
+d librpm8 libcap2
+d librpm8 libc6
+d libelf1 zlib1g
+d libelf1 libc6
+d librpmbuild8 libmagic1
+d librpmbuild8 librpmio8
+d librpmbuild8 libpopt0
+d librpmbuild8 libdw1
+d librpmbuild8 librpm8
+d librpmbuild8 libelf1
+d librpmbuild8 libc6
+d libaudit1 libcap-ng0
+d libaudit1 libaudit-common
+d libaudit1 libc6
+d libpam-modules libpam-modules-bin
+d libpam-modules libselinux1
+d libpam-modules libaudit1
+d libpam-modules libdb5.3
+d libpam-modules debconf debconf-2.0
+d libpam-modules libpam0g
+d libpam-modules libc6
+d libsemanage1 libsepol1
+d libsemanage1 libselinux1
+d libsemanage1 libaudit1
+d libsemanage1 libsemanage-common
+d libsemanage1 libbz2-1.0
+d libsemanage1 libc6
+d libpam0g libaudit1
+d libpam0g debconf debconf-2.0
+d libpam0g libc6
+d xfsprogs libuuid1
+d xfsprogs libblkid1
+d xfsprogs libreadline5
+d xfsprogs libc6
+d libncurses5 libc6
+d libncurses5 libtinfo5
+d libmono-system4.0-cil libmono-security4.0-cil
+d libmono-system4.0-cil libmono-corlib4.5-cil
+d libmono-system4.0-cil libmono-system-xml4.0-cil
+d libmono-system4.0-cil libmono-system-configuration4.0-cil
+d libmono-system4.0-cil libc6
+d libmono-system4.0-cil mono-runtime
+d tzdata debconf debconf-2.0
+d mono-runtime mono-runtime-sgen
+d mono-runtime libc6
+d libdw1 liblzma5
+d libdw1 zlib1g
+d libdw1 libelf1
+d libdw1 libbz2-1.0
+d libdw1 libc6
+d liblua5.2-0 libc6
+d libnss3 libsqlite3-0
+d libnss3 libnspr4
+d libnss3 libc6
+d libarchive13 libxml2
+d libarchive13 liblzma5
+d libarchive13 zlib1g
+d libarchive13 liblzo2-2
+d libarchive13 libnettle6
+d libarchive13 liblz4-1
+d libarchive13 libbz2-1.0
+d libarchive13 libacl1
+d libarchive13 libc6
+d libdbus-1-3 libsystemd0
+d libdbus-1-3 libc6
+d libdb5.3 libc6
+d libcap2 libc6
+d libmagic1 zlib1g
+d libmagic1 libmagic-mgc
+d libmagic1 libc6
+d libcap-ng0 libc6
+d libpam-modules-bin libaudit1
+d libpam-modules-bin libselinux1
+d libpam-modules-bin libpam0g
+d libpam-modules-bin libc6
+d libsepol1 libc6
+d libblkid1 libuuid1
+d libblkid1 libc6
+d libmono-system-xml4.0-cil libmono-system-configuration4.0-cil
+d libmono-system-xml4.0-cil libmono-system4.0-cil
+d libmono-system-xml4.0-cil libmono-corlib4.5-cil
+d libmono-system-configuration4.0-cil libmono-system4.0-cil
+d libmono-system-configuration4.0-cil libmono-system-xml4.0-cil
+d libmono-system-configuration4.0-cil libmono-corlib4.5-cil
+d libmono-system-configuration4.0-cil libmono-system-security4.0-cil
+d libmono-system-configuration4.0-cil mono-runtime
+d mono-runtime-sgen mono-runtime-common
+d mono-runtime-sgen libgcc1
+d mono-runtime-sgen libc6
+d libsqlite3-0 libc6
+d libnspr4 libc6
+d libxml2 libicu60
+d libxml2 zlib1g
+d libxml2 liblzma5
+d libxml2 libc6
+d liblzo2-2 multiarch-support
+d libmono-system-security4.0-cil libmono-security4.0-cil
+d libmono-system-security4.0-cil libmono-system4.0-cil
+d libmono-system-security4.0-cil libmono-system-xml4.0-cil
+d libmono-system-security4.0-cil libmono-corlib4.5-cil
+d mono-runtime-common zlib1g
+d mono-runtime-common mono-gac
+d mono-runtime-common binutils
+d mono-runtime-common libc6
+d libicu60 libgcc1
+d libicu60 libc6
+d multiarch-support libc6
+c libssl-dev libssl1.0-dev
+c make make-guile
+c gcc gcc-doc
+c libssl1.0-dev libssl-dev
+c xz-utils lzma
+c binutils binutils-mingw-w64-i686
+c binutils binutils-multiarch
+c binutils binutils-mingw-w64-x86-64
+c tar cpio
+c make-guile make
+c linux-libc-dev linux-kernel-headers
+c cpp cpp-doc
+c debconf whiptail
+c debconf debconf-utils
+c debconf menu
+c debconf cdebconf
+c debconf dialog
+c debconf apt
+c libgmp-dev libgmp10-dev
+c perl libjson-pp-perl
+c libacl1 acl
+c cpio mt-st
+c guile-2.0-libs guile-2.0-slib
+c perl-base mono-gac
+c perl-base doc-base
+c perl-base update-inetd
+c perl-base safe-rm
+c debconf-utils debconf
+c libattr1 attr
+c libpcre3 libpcre3-dev
+c libpopt0 rpm
+c libpopt0 libpopt-dev
+c readline-common libreadline5
+c attr xfsdump
+c xfsdump xfsprogs
+c libpcrecpp0v5 libpcre3
+c libpam-modules libpam-mkhomedir
+c libpam-modules libpam-umask
+c libpam-modules libpam-motd
+c mono-runtime-common mono-runtime

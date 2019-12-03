@@ -1,0 +1,12 @@
+p spu 4
+n pkg1
+n pkg2
+n pkg3
+n pkg4
+d pkg1 pkg2 pkg3
+d pkg2 pkg3
+d pkg3 pkg2
+d pkg4 pkg2
+d pkg4 pkg3
+c pkg1 pkg4
+c pkg2 pkg4
