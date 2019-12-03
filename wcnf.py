@@ -88,13 +88,17 @@ class WCNFFormula(object):
         """Generates a new formula that is the 1,3-WPM equivalent
         of this one."""
         formula13 = WCNFFormula()
+        formula13.extend_vars(self.num_vars)
         generated_keys = {}
         new_hard = []
         for cl_soft in self.soft:
-            new_clause = formula13.new_var()
-            generated_keys[new_clause] = cl_soft
-            new_hard.append(cl_soft[1] + new_clause)
-            formula13.add_clause([new_clause], cl_soft[0])
+            if len(cl_soft[1]) != 1:
+                new_clause = formula13.new_var()
+                generated_keys[new_clause] = cl_soft
+                new_hard.append(cl_soft[1] + [new_clause])
+                formula13.add_clause([-new_clause], cl_soft[0])
+            else:
+                formula13.add_clause(cl_soft[1], cl_soft[0])
         formula13._get_hard_clauses_to_13wpm(new_hard)
         formula13._get_hard_clauses_to_13wpm(self.hard)
         return formula13
@@ -102,9 +106,16 @@ class WCNFFormula(object):
     def _get_hard_clauses_to_13wpm(self, hards):
         for hard_clause in hards:
             if len(hard_clause) < 3:
-                pass
+                self.add_clause((hard_clause * 3)[:3], TOP_WEIGHT)
             elif len(hard_clause) > 3:
-                pass
+                zi = self.new_var()
+                self.add_clause(hard_clause[:2] + [zi], TOP_WEIGHT)
+                for variable in hard_clause[2:-2]:
+                    zi_ = self.new_var()
+                    self.add_clause([-zi, variable, zi_], TOP_WEIGHT)
+                    zi = zi_
+            else:
+                self.add_clause(hard_clause, TOP_WEIGHT)
 
     def sum_soft_weights(self):
         return self._sum_soft_weights

@@ -150,7 +150,7 @@ class Graph(object):
         list(map(soft_clause, self.edges))
         _, model = solver.solve(formula)
         # print(formula)
-        formula.write_dimacs()
+        formula.write_dimacs(open('prova.dimacs', 'w'))
         return list(filter(lambda x: x > 0, model))
 
 
