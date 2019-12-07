@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
+""" This module serves to solve a 3 graphs problems given a
+    dmg file.
+"""
 # -*- coding: utf-8 -*-
 
 from __future__ import absolute_import, print_function
 
 import argparse
-import collections
-import itertools
+# import collections
+# import itertools
 import os
 import sys
 
@@ -17,7 +20,7 @@ import wcnf
 ###############################################################################
 
 
-class Graph(object):
+class Graph():
     """This class represents an undirected graph. The graph nodes are
     labeled 1, ..., n, where n is the number of nodes, and the edges are
     stored as pairs of nodes.
@@ -48,16 +51,16 @@ class Graph(object):
 
         reader = (l for l in (ll.strip() for ll in stream) if l)
         for line in reader:
-            l = line.split()
-            if l[0] == 'p':
-                self.n_nodes = int(l[2])
-                n_edges = int(l[3])
-            elif l[0] == 'c':
+            words = line.split()
+            if words[0] == 'p':
+                self.n_nodes = int(words[2])
+                n_edges = int(words[3])
+            elif words[0] == 'c':
                 pass  # Ignore comments
             else:
-                edges.add(frozenset([int(l[1]), int(l[2])]))
+                edges.add(frozenset([int(words[1]), int(words[2])]))
 
-        self.edges = tuple(tuple(x) for x in edges)
+        self.edges = tuple(tuple(edge) for edge in edges)
         if n_edges != len(edges):
             print("Warning incorrect number of edges")
 
@@ -73,7 +76,7 @@ class Graph(object):
         :raises ImportError: When unable to import graphviz.
         """
         try:
-            from graphviz import Graph
+            from graphviz import Graph as GGraph
         except ImportError:
             msg = (
                 "Could not import 'graphviz' module. "
@@ -82,13 +85,13 @@ class Graph(object):
             )
             raise ImportError(msg)
         # Create graph
-        dot = Graph()
+        dot = GGraph()
         # Create nodes
-        for n in range(1, self.n_nodes + 1):
-            dot.node(str(n))
+        for node in range(1, self.n_nodes + 1):
+            dot.node(str(node))
         # Create edges
-        for n1, n2 in self.edges:
-            dot.edge(str(n1), str(n2))
+        for node1, node2 in self.edges:
+            dot.edge(str(node1), str(node2))
         # Visualize
         dot.render(name, view=True, cleanup=True)
 
@@ -105,8 +108,9 @@ class Graph(object):
         # Creates soft calusules
         list(map(lambda x: formula.add_clause([-x], weight=1), nodes))
         list(map(lambda x: formula.add_clause([nodes[x[0] - 1],
-            nodes[x[1] - 1]],
-            weight=wcnf.TOP_WEIGHT), self.edges))
+                                               nodes[x[1] - 1]],
+                                              weight=wcnf.TOP_WEIGHT),
+                 self.edges))
         # formula.write_dimacs()  # Prints for debug.
         _, model = solver.solve(formula)
         # print("Opt: ", opt)
@@ -131,9 +135,11 @@ class Graph(object):
         sorted_edges = {tuple((sorted(edge))): edge for edge in self.edges}
         # It uses list so it's not a generator.
         negated_edges = (edge for edge in all_edges
-                if edge not in sorted_edges)
-        list(map(lambda x: formula.add_clause([-nodes[x[0] - 1], -nodes[x[1] - 1]],
-            weight=wcnf.TOP_WEIGHT), negated_edges))
+                         if edge not in sorted_edges)
+        list(map(lambda x: formula.add_clause([-nodes[x[0] - 1],
+                                               -nodes[x[1] - 1]],
+                                              weight=wcnf.TOP_WEIGHT),
+                 negated_edges))
         # formula.write_dimacs()  # Prints for debug.
         _, model = solver.solve(formula)
         # print("Opt: ", opt)
@@ -147,9 +153,9 @@ class Graph(object):
         :param solver: An instance of MaxSATRunner.
         :return: A solution (list of nodes).
         """
-        def soft_clause(x):
-            formula.add_clause([nodes[x[0] - 1], nodes[x[1] - 1]], weight=1)
-            formula.add_clause([-nodes[x[0] - 1], -nodes[x[1] - 1]], weight=1)
+        def soft_clause(edge):
+            formula.add_clause([nodes[edge[0] - 1], nodes[edge[1] - 1]], weight=1)
+            formula.add_clause([-nodes[edge[0] - 1], -nodes[edge[1] - 1]], weight=1)
         # Initialize formula
         formula = wcnf.WCNFFormula()
         # Creates Variables
@@ -165,6 +171,7 @@ class Graph(object):
 
 
 def main(argv=None):
+    """ Serves as a main. """
     args = parse_command_line_arguments(argv)
 
     solver = msat_runner.MaxSATRunner(args.solver)
@@ -188,6 +195,7 @@ def main(argv=None):
 
 
 def parse_command_line_arguments(argv=None):
+    """ Parses arguments. """
     parser = argparse.ArgumentParser(
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
