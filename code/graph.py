@@ -104,7 +104,8 @@ class Graph(object):
         nodes = [formula.new_var() for _ in range(self.n_nodes)]
         # Creates soft calusules
         list(map(lambda x: formula.add_clause([-x], weight=1), nodes))
-        list(map(lambda x: formula.add_clause([nodes[x[0] - 1], nodes[x[1] - 1]],
+        list(map(lambda x: formula.add_clause([nodes[x[0] - 1],
+            nodes[x[1] - 1]],
             weight=wcnf.TOP_WEIGHT), self.edges))
         # formula.write_dimacs()  # Prints for debug.
         _, model = solver.solve(formula)
@@ -123,9 +124,16 @@ class Graph(object):
         # Creates Variables
         nodes = [formula.new_var() for _ in range(self.n_nodes)]
         # Creates soft calusules
-        list(map(lambda x: formula.add_clause([-x], weight=1), nodes))
-        list(map(lambda x: formula.add_clause([nodes[x[0] - 1], nodes[x[1] - 1]],
-            weight=wcnf.TOP_WEIGHT), self.edges))
+        list(map(lambda x: formula.add_clause([x], weight=1), nodes))
+        # Creates negated edges. All edges is a generator.
+        # Sorted edges is a dictionary so cost for in is O(1).
+        all_edges = ((x, y) for i, x in enumerate(nodes) for y in nodes[i+1:])
+        sorted_edges = {tuple((sorted(edge))): edge for edge in self.edges}
+        # It uses list so it's not a generator.
+        negated_edges = (edge for edge in all_edges
+                if edge not in sorted_edges)
+        list(map(lambda x: formula.add_clause([-nodes[x[0] - 1], -nodes[x[1] - 1]],
+            weight=wcnf.TOP_WEIGHT), negated_edges))
         # formula.write_dimacs()  # Prints for debug.
         _, model = solver.solve(formula)
         # print("Opt: ", opt)
@@ -149,10 +157,7 @@ class Graph(object):
         # Creates soft calusules
         list(map(soft_clause, self.edges))
         _, model = solver.solve(formula)
-        # print(formula)
-        formula.write_dimacs(open('prova.dimacs', 'w'))
         return list(filter(lambda x: x > 0, model))
-
 
 
 # Program main

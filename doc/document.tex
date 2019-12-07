@@ -1,0 +1,151 @@
+% !TeX spellcheck = ca
+\documentclass{article}
+\usepackage[catalan]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{amsmath}
+\usetikzlibrary{positioning,fit,calc,arrows.meta, shapes}
+%\usepackage{bytefield}
+\graphicspath{ {images/} }
+\usepackage{array}
+
+
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+%Tot això hauria d'anar en un pkg, però no sé com és fa
+\newcommand*{\assignatura}[1]{\gdef\1assignatura{#1}}
+\newcommand*{\grup}[1]{\gdef\3grup{#1}}
+\newcommand*{\professorat}[1]{\gdef\4professorat{#1}}
+\renewcommand{\title}[1]{\gdef\5title{#1}}
+\renewcommand{\author}[1]{\gdef\6author{#1}}
+\renewcommand{\date}[1]{\gdef\7date{#1}}
+\renewcommand{\contentsname}{Índex}
+\renewcommand{\maketitle}{ %fa el maketitle de nou
+	\begin{titlepage}
+		\raggedright{UNIVERSITAT DE LLEIDA \\
+			Escola Politècnica Superior \\
+			Grau en Enginyeria Informàtica\\
+			\1assignatura\\
+}
+		\vspace{5cm}
+		\centering\huge{\5title \\}
+		\vspace{3cm}
+		\large{\6author} \\
+		\normalsize{\3grup}
+		\vfill
+		Professorat : \4professorat \\
+		Data : \7date
+\end{titlepage}}
+%Emplenar a partir d'aquí per a fer el títol : no se com es fa el package
+%S'han de renombrar totes, inclús date, si un camp es deixa en blanc no apareix
+
+\renewcommand{\figurename}{Figura}
+\renewcommand{\tablename}{Taula}
+\title{Max-SAT}
+\author{Sergi Simón Balcells}
+\date{11 de Desembre 2019}
+\assignatura{Intel·ligència Artificial}
+\professorat{E. Torres}
+\grup{GM3}
+
+% Makes padding for table. Improves readability
+\renewcommand{\arraystretch}{1.5}
+
+
+\setlength{\tabcolsep}{18pt}
+%Comença el document
+\begin{document}
+	\maketitle
+	\newpage
+
+\section{Introducció}
+En aquesta pràctica es realitza la implementació de tres problemes amb l'eina de MAXSAT.
+Aquests són 3 problemes dedicats a grafs, un problema de passar d'una fórmula no 13wm a 13wm, i
+el problema de \textit{Software Package Upgrade} (SPU d'ara endavant). Aquest document tracta de dos
+apartats:
+\begin{itemize}
+	\item L'implementació, que tractarà de les decisions preses en aquesta.
+	\item Tests, que tractarà com s'ha avaluat el correcte funcionament del programa.
+\end{itemize}
+\section{Implementació}
+En aquest apartat se seguirà les decisions que s'ha pres en la implementació.
+Es començarà per l'apartat de 13wm, donat que la implementació d'aquest ha sigut
+no ha influït a les implementacions dels altres apartats, mentre que els problemes de 
+graf han influenciat a les del problema de SPU. Finalment, per preferència personal, 
+s'ha utilitzat funcions d'alt ordre per estalviar-se el raonament. 
+\subsection{13wm}
+Per a fer el tractament de 13wm, s0ha procedit primer en tractar les clàusules soft, aquestes
+s'han inclòs en la fórmula resultat, i s'han deixat les clàusules hard creades per a un nou mètode
+de la fórmula, on es tradueix clàusules hard a 3. El mateix mètode s'ha utilitzat per afegir les clàusules
+hard de l'última fórmula. Per comprovar el seu funcionament, es va solucionar el problema abans de passar
+a 13wm i en passar-se. Es va considerar que si retornaven el mateix resultat, era que l'algorisme funcionava. Però, 
+en haver-hi més d'un òptim podien retornar resultats diferents i continuar estant bé l'algorisme, pel que es va comprovar
+amb el flag -n a -1, ja que aquest retorna tots els resultats.
+\subsection{Problemes de graf}
+Els tres problemes dels grafs s'han tractat com es diu en els apunts. Primer s'han realitzat les clàusules soft, 
+i després les hard.
+\subsubsection{Max Clique}
+Per a la realització d'aquest problema es necessitava crear el conjunt d'arestes que no estaven
+en el graf original. Per a aquesta realització, s'ha utilitzat la següent propietat:\\
+\\
+Sigui $E$ el conjunt d'arestes pertanyent al graf $G$, i $\mathcal{U}_E$ el conjunt d'arestes
+possibles, llavors es compleix que $\mathcal{U}_E -E = \overline{E}$. \\
+\\
+Per a la realització d'aquest,
+s'ha utilitzat un generador per a les arestes de $U_E$ i $\overline{E}$, ja que només és
+necessari iterar-les un cop. Per altra banda, s'ha observat amb l'exemple de Petersen que les arestes
+no estan particularment ordenades, pel que s'ha creat una estructura auxiliar que té les arestes ordenades.
+A més a més, per aquesta estructura s'ha utilitzat un diccionari, ja que així el cost de mirar si una aresta està
+al graf es torna, en el pitjor dels casos, $\mathcal{O}(1)$.
+
+\subsection{SPU solver}
+Per a realitzar l'SPU solver s'ha copiat fitxer dels problemes de graf, i 
+s'ha adaptat tot el contingut al problema de SPU. Per aquest motiu, i 
+per facilitat el debug, s'ha realitzat la visualització del problema dels paquets.
+\subsubsection{Visualització}
+La visualització s'ha dut a terme amb un digraf, on les arestes negres són les dependències i
+les vermelles són els conflictes. La representació d'una dependència o una altra no
+s'ha realitzat, ja que no s'ha trobat un sistema per a visualitzar-ho de forma clara 
+sense sobrecarregar la visualització.
+%TODO Posar l'exemple
+\subsubsection{SPU}
+Per a realitzar l'SPU, s'ha continuat amb la forma de tractament dels grafs. Per a fer la traducció
+del nom dels paquets a un nombre de la fòrmula, s'ha realitzat amb un \textit{defaultdict}, on el cas
+estàndard és  la creació d'una variable. Per a fer la traducció s'ha invertit amb el codi:
+\begin{lstlisting}[language=Python]
+ inv_map = {v: k for k, v in generated.items()}                                                                                                                                                                                  
+\end{lstlisting}
+Ja que, si no, la traducció requereix d'un cost $\mathcal{O}(n^2)$, mentre que d'aquesta forma, en
+el pitjor dels casos es requereix d'un cost $\mathcal{O}(n\log n)$.
+\section{Tests}
+La realització dels tests ha estat costosa, ja que s'han fet manualment. El  problema d'aquests és que un 
+canvi en l'ordre de les clàusules d'una fórmula pot significar trobar un altre òptim, en el cas que n'hi hagi 
+més d'un. Pels exemples de grafs s'ha realitzat a mà la solució dels tres grafs pels tres problemes. En executar-se
+s'ha comprovat que l'òptim era el mateix que el trobat a mà.
+Per a i13wm, s'ha acceptat que si la solució continua tenint el mateix òptim tant en el cas anterior com en el cas en 13wm, 
+era que la solució plantejada estava bé. Finalment, per a comprovar que aquesta solució tenia sentit, s'ha escrit els problemes dels
+grafs en dimacs i s'ha llegit comprovat que el 13wm donava una resposta vàlida en els tres. 
+Per a SPU, només s'ha realitzat amb el test de \textit{sample}, ja que els altres eren més difícils realitzar-los a mà que esperar
+que el resultat donat era l'òptim.
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

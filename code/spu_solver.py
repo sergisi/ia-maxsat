@@ -118,7 +118,6 @@ class Spu(object):
         res = list(map(lambda x : inv_map[x], filter(lambda x: x>0, model)))
         res.sort()
         pkgs = ' '.join(res)
-        print(pkgs)
         return '\to ' + str(opt) +'\n\tv ' + pkgs
 
 # Program main
