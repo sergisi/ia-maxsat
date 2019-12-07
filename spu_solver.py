@@ -71,7 +71,7 @@ class Spu(object):
         :raises ImportError: When unable to import graphviz.
         """
         try:
-            from graphviz import Graph
+            from graphviz import Digraph
         except ImportError:
             msg = (
                 "Could not import 'graphviz' module. "
@@ -80,13 +80,14 @@ class Spu(object):
             )
             raise ImportError(msg)
         # Create graph
-        dot = Graph()
+        dot = Digraph()
         # Create nodes
         for n in self.pkg_toinstall:
             dot.node(n)
         # Create edges
-        for n1, n2 in self.dependencies:
-            dot.edge(str(n1), str(n2))
+        for n1, ns2 in self.dependencies:
+            for n2 in ns2:
+                dot.edge(str(n1), str(n2))
         for n1, n2 in self.conflicts:
             dot.edge(n1, n2, color='Red')
         # Visualize
