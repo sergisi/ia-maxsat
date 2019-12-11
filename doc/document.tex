@@ -81,8 +81,8 @@ no ha influït a les implementacions dels altres apartats, mentre que els proble
 graf han influenciat a les del problema de SPU. Finalment, per preferència personal, 
 s'ha utilitzat funcions d'alt ordre per estalviar-se el raonament. 
 \subsection{13wm}
-Per a fer el tractament de 13wm, s0ha procedit primer en tractar les clàusules soft, aquestes
-s'han inclòs en la fórmula resultat, i s'han deixat les clàusules hard creades per a un nou mètode
+Per a fer el tractament de 13wm, s'ha procedit primer en tractar les clàusules soft, aquestes
+s'han inclòs en la fórmula resultant, i s'han deixat les clàusules hard creades per a un nou mètode
 de la fórmula, on es tradueix clàusules hard a 3. El mateix mètode s'ha utilitzat per afegir les clàusules
 hard de l'última fórmula. Per comprovar el seu funcionament, es va solucionar el problema abans de passar
 a 13wm i en passar-se. Es va considerar que si retornaven el mateix resultat, era que l'algorisme funcionava. Però, 
@@ -114,7 +114,6 @@ La visualització s'ha dut a terme amb un digraf, on les arestes negres són les
 les vermelles són els conflictes. La representació d'una dependència o una altra no
 s'ha realitzat, ja que no s'ha trobat un sistema per a visualitzar-ho de forma clara 
 sense sobrecarregar la visualització.
-%TODO Posar l'exemple
 \subsubsection{SPU}
 Per a realitzar l'SPU, s'ha continuat amb la forma de tractament dels grafs. Per a fer la traducció
 del nom dels paquets a un nombre de la fòrmula, s'ha realitzat amb un \textit{defaultdict}, on el cas
@@ -132,8 +131,7 @@ s'ha comprovat que l'òptim era el mateix que el trobat a mà.
 Per a i13wm, s'ha acceptat que si la solució continua tenint el mateix òptim tant en el cas anterior com en el cas en 13wm, 
 era que la solució plantejada estava bé. Finalment, per a comprovar que aquesta solució tenia sentit, s'ha escrit els problemes dels
 grafs en dimacs i s'ha llegit comprovat que el 13wm donava una resposta vàlida en els tres. 
-Per a SPU, només s'ha realitzat amb el test de \textit{sample}, ja que els altres eren més difícils realitzar-los a mà que esperar
-que el resultat donat era l'òptim.
+Per a SPU, només s'ha realitzat amb el test de \textit{sample}, ja que els altres eren més fàcil equivocar-se fent el resultat a mà.
 \end{document}
 
 
