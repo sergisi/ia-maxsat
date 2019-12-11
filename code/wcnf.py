@@ -114,6 +114,7 @@ class WCNFFormula(object):
                     zi_ = self.new_var()
                     self.add_clause([-zi, variable, zi_], TOP_WEIGHT)
                     zi = zi_
+                self.add_clause([-zi, *hard_clause[-2:]], TOP_WEIGHT)
             else:
                 self.add_clause(hard_clause, TOP_WEIGHT)
 

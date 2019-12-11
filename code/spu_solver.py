@@ -118,7 +118,7 @@ class Spu():
                  self.conflicts))
         opt, model = solver.solve(formula)
         inv_map = {v: k for k, v in generated.items()}
-        res = list(map(lambda x: inv_map[x], filter(lambda x: x > 0, model)))
+        res = list(map(lambda x: inv_map[-x], filter(lambda x: x < 0, model)))
         res.sort()
         pkgs = ' '.join(res)
         return '\to ' + str(opt) +'\n\tv ' + pkgs
